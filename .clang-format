@@ -1,0 +1,16 @@
+ BinPackParameters: true
+ BinPackArguments: true
+ ColumnLimit:     160
+ ConstructorInitializerAllOnOneLineOrOnePerLine: false
+
+ KeepEmptyLinesAtTheStartOfBlocks: true
+ NamespaceIndentation: None
+ ObjCBlockIndentWidth: 4
+ ObjCSpaceAfterProperty: false
+ ObjCSpaceBeforeProtocolList: true
+ PenaltyBreakBeforeFirstCallParameter: 19
+
+ Standard:        Cpp11
+ IndentWidth:     4
+ TabWidth:        8
+ UseTab:          Never
