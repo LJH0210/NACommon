@@ -27,30 +27,30 @@
 #import <UIKit/UIKit.h>
 
 typedef enum SSCheckBoxViewStyle_ {
-    kNACheckBoxViewStyleBox = 0,
-    kNACheckBoxViewStyleDark,
-    kNACheckBoxViewStyleGlossy,
-    kNACheckBoxViewStyleGreen,
-    kNACheckBoxViewStyleMono,
+  kNACheckBoxViewStyleBox = 0,
+  kNACheckBoxViewStyleDark,
+  kNACheckBoxViewStyleGlossy,
+  kNACheckBoxViewStyleGreen,
+  kNACheckBoxViewStyleMono,
 
-    kSSCheckBoxViewStylesCount
+  kSSCheckBoxViewStylesCount
 } NACheckBoxViewStyle;
 
 @interface NACheckBoxView : UIView {
-    NACheckBoxViewStyle style;
-    BOOL checked;
-    BOOL enabled;
+  NACheckBoxViewStyle _style;
+  BOOL checked;
+  BOOL enabled;
 
-    UIImageView *checkBoxImageView;
-    UILabel *textLabel;
+  UIImageView *checkBoxImageView;
+  UILabel *textLabel;
 
-    /* called when check box changes state */
-    // this method would be in the following form:
-    // - (void) checkBoxViewChangedState:(SSCheckBoxView *)cbv;
-    SEL stateChangedSelector;
-    id<NSObject> delegate;
+  /* called when check box changes state */
+  // this method would be in the following form:
+  // - (void) checkBoxViewChangedState:(SSCheckBoxView *)cbv;
+  SEL stateChangedSelector;
+  id<NSObject> delegate;
 
-    void (^stateChangedBlock)(NACheckBoxView *cbv);
+  void (^stateChangedBlock)(NACheckBoxView *cbv);
 }
 
 @property(nonatomic, readonly) NACheckBoxViewStyle style;
@@ -58,7 +58,9 @@ typedef enum SSCheckBoxViewStyle_ {
 @property(nonatomic, getter=enabled, setter=setEnabled:) BOOL enabled;
 @property(nonatomic, copy) void (^stateChangedBlock)(NACheckBoxView *cbv);
 
-- (id)initWithFrame:(CGRect)frame style:(NACheckBoxViewStyle)aStyle checked:(BOOL)aChecked;
+- (id)initWithFrame:(CGRect)frame
+              style:(NACheckBoxViewStyle)aStyle
+            checked:(BOOL)aChecked;
 
 - (void)setText:(NSString *)text;
 
