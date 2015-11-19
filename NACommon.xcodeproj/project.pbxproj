@@ -336,6 +336,7 @@
 		6DEE25DF1BFDA14A00539365 /* NAUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIKit.h; sourceTree = "<group>"; };
 		6DEE269A1BFDD2B100539365 /* NAHostConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHostConfig.h; sourceTree = "<group>"; };
 		6DEE269B1BFDD2B100539365 /* NAHostConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHostConfig.m; sourceTree = "<group>"; };
+		6DEE269E1BFDD90B00539365 /* nacommon.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nacommon.pch; sourceTree = "<group>"; };
 		9915578246E021A713BEEC45 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -399,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				6DEE24671BFDA10100539365 /* main.m */,
+				6DEE269E1BFDD90B00539365 /* nacommon.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1226,7 +1228,9 @@
 			baseConfigurationReference = 9915578246E021A713BEEC45 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NACommon/nacommon.pch";
 				INFOPLIST_FILE = NACommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1238,7 +1242,9 @@
 			baseConfigurationReference = 31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NACommon/nacommon.pch";
 				INFOPLIST_FILE = NACommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
