@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="NACommonCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="51"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggK-J6-XkR">
+                    <rect key="frame" x="0.0" y="0.0" width="177" height="51"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I80-We-4k7">
+                    <rect key="frame" x="177" y="0.0" width="177" height="51"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="ggK-J6-XkR" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="4YQ-Eu-M0N"/>
+                <constraint firstItem="I80-We-4k7" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="GKY-xr-hJV"/>
+                <constraint firstAttribute="trailing" secondItem="I80-We-4k7" secondAttribute="trailing" id="IGQ-LU-z1f"/>
+                <constraint firstItem="I80-We-4k7" firstAttribute="leading" secondItem="ggK-J6-XkR" secondAttribute="trailing" id="OLX-VY-NbA"/>
+                <constraint firstItem="I80-We-4k7" firstAttribute="leading" secondItem="ggK-J6-XkR" secondAttribute="trailing" id="Y5N-hW-G6h"/>
+                <constraint firstAttribute="bottom" secondItem="ggK-J6-XkR" secondAttribute="bottom" id="ZfY-tr-2ks"/>
+                <constraint firstAttribute="bottom" secondItem="I80-We-4k7" secondAttribute="bottom" id="g32-yc-hua"/>
+                <constraint firstItem="I80-We-4k7" firstAttribute="width" secondItem="ggK-J6-XkR" secondAttribute="width" id="yPe-8K-FRv"/>
+                <constraint firstItem="ggK-J6-XkR" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="z04-hn-rLK"/>
+            </constraints>
+            <connections>
+                <outlet property="detailLabel" destination="I80-We-4k7" id="UXG-Qf-o8R"/>
+                <outlet property="titleLabel" destination="ggK-J6-XkR" id="SDy-Uc-b7H"/>
+            </connections>
+            <point key="canvasLocation" x="513" y="473.5"/>
+        </collectionReusableView>
+    </objects>
+</document>

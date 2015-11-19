@@ -1,0 +1,99 @@
+//
+//  NAAutoTableViewCellHeighCache.m
+//  NACommon
+//
+//  Created by ND on 15/6/5.
+//  Copyright (c) 2015年 NAia. All rights reserved.
+//
+
+#import "NAAutoTableViewCellHeighCache.h"
+#import <UIKit/UIKit.h>
+#import "NSString+NAFoundation.h"
+#import "NSString+MD5.h"
+
+@interface NAAutoTableViewCellHeighCache ()
+@property(strong) NSMutableDictionary *cache;
+@property(strong) NSMutableDictionary *mdCache;
+@end
+
+@implementation NAAutoTableViewCellHeighCache
+
++ (NAAutoTableViewCellHeighCache *)shareInstance {
+    static NAAutoTableViewCellHeighCache *autoCache;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        autoCache = [[super alloc] init];
+        autoCache.cache = [[NSMutableDictionary alloc] init];
+        autoCache.mdCache = [[NSMutableDictionary alloc] init];
+    });
+    return autoCache;
+}
+
+- (CGFloat)labelHeightWithString:(NSString *)string width:(int)width font:(UIFont *)font useCache:(BOOL)useCache {
+    float height = 0;
+    if (!useCache) {
+        height = [string NA_countHeighWithWidth:width font:font];
+        return height;
+    }
+    NSString *key = [self md5WithString:string width:width font:font];
+
+    if (key) {
+        height = [[[NAAutoTableViewCellHeighCache shareInstance].mdCache objectForKey:key] floatValue];
+        if (height > 0) {
+            return height;
+        } else {
+            height = [string NA_countHeighWithWidth:width font:font];
+            [[NAAutoTableViewCellHeighCache shareInstance].mdCache setObject:[NSNumber numberWithFloat:height] forKey:key];
+        }
+    } else {
+        height = [string NA_countHeighWithWidth:width font:font];
+        NSLog(@"构造UITableViewCell高度md5失败");
+    }
+
+    return height;
+}
+
+- (void)removeLabelHeightCache {
+    [[NAAutoTableViewCellHeighCache shareInstance].mdCache removeAllObjects];
+}
+
+- (NSString *)md5WithString:(NSString *)string width:(int)width font:(UIFont *)font {
+    NSMutableString *st = [string mutableCopy];
+    [st appendFormat:@"%i", width];
+    [st appendFormat:@"%@", font.familyName];
+    [st appendFormat:@"%@", font.fontName];
+    [st appendFormat:@"%f", font.pointSize];
+    [st appendFormat:@"%f", font.ascender];
+    [st appendFormat:@"%f", font.descender];
+    [st appendFormat:@"%f", font.capHeight];
+    [st appendFormat:@"%f", font.xHeight];
+    [st appendFormat:@"%f", font.lineHeight];
+    [st appendFormat:@"%f", font.leading];
+    return [st NA_md5Hash];
+}
+
+- (CGFloat)cellHightWithCacheKey:(NSString *)cacheKey indexPath:(NSIndexPath *)indexPath {
+    NSMutableDictionary *dic = [[NAAutoTableViewCellHeighCache shareInstance].cache objectForKey:cacheKey];
+    if ([NAAutoTableViewCellHeighCache cellIndexPathToString:indexPath]) {
+        return [[dic objectForKey:[NAAutoTableViewCellHeighCache cellIndexPathToString:indexPath]] floatValue];
+    }
+    return 0;
+}
+
+- (void)addCellHightWithCacheKey:(NSString *)cacheKey indexPath:(NSIndexPath *)indexPath cellHeight:(CGFloat)height {
+    NSMutableDictionary *dic = [[NAAutoTableViewCellHeighCache shareInstance].cache objectForKey:cacheKey];
+    if (!dic) {
+        dic = [[NSMutableDictionary alloc] init];
+    }
+    [dic setObject:[NSNumber numberWithFloat:height] forKey:[NAAutoTableViewCellHeighCache cellIndexPathToString:indexPath]];
+}
+
+- (void)removeCacheHighWithCacheKey:(NSString *)cacheKey {
+    [[NAAutoTableViewCellHeighCache shareInstance].cache removeObjectForKey:cacheKey];
+}
+
++ (NSString *)cellIndexPathToString:(NSIndexPath *)indexpath {
+    return [NSString stringWithFormat:@"%li,%li", indexpath.section, indexpath.row];
+}
+
+@end

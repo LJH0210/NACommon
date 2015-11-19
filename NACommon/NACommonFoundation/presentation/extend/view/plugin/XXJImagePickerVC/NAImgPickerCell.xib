@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NAImgPickerCell" id="gTV-IL-0wX" customClass="NAImgPickerCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="82"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icx_appraise_upload.png" id="9Xl-dp-kEW">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="82"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zJO-he-vZE">
+                        <rect key="frame" x="68" y="61" width="22" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <animations/>
+                        <state key="normal" image="icx_appraise_delete.png">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="actionDeleteSelectImg:" destination="gTV-IL-0wX" eventType="touchUpInside" id="QbK-3J-8E3"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NgJ-YR-swC">
+                        <rect key="frame" x="0.0" y="57" width="90" height="22"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <size key="customSize" width="90" height="82"/>
+            <connections>
+                <outlet property="btDelete" destination="zJO-he-vZE" id="MHA-4i-0XK"/>
+                <outlet property="imgBack" destination="9Xl-dp-kEW" id="pJm-Ev-prB"/>
+                <outlet property="infoLabel" destination="NgJ-YR-swC" id="dBW-OK-Ehu"/>
+                <outlet property="labelWarm" destination="NgJ-YR-swC" id="fd1-4s-8fc"/>
+            </connections>
+            <point key="canvasLocation" x="108" y="336"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icx_appraise_delete.png" width="36" height="36"/>
+        <image name="icx_appraise_upload.png" width="144" height="144"/>
+    </resources>
+</document>
