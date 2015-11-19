@@ -30,7 +30,6 @@
 		6DEE25F01BFDA14A00539365 /* NSString+NAFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249A1BFDA14A00539365 /* NSString+NAFoundation.m */; };
 		6DEE25F11BFDA14A00539365 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249C1BFDA14A00539365 /* NSString+URLEncoding.m */; };
 		6DEE25F21BFDA14A00539365 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249E1BFDA14A00539365 /* UIDevice+Extension.m */; };
-		6DEE25F31BFDA14A00539365 /* NACommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A01BFDA14A00539365 /* NACommon.m */; };
 		6DEE25F41BFDA14A00539365 /* NADevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A41BFDA14A00539365 /* NADevice.m */; };
 		6DEE25F51BFDA14A00539365 /* NADateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A71BFDA14A00539365 /* NADateFormatter.m */; };
 		6DEE25F61BFDA14A00539365 /* NAMobileFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A91BFDA14A00539365 /* NAMobileFormatter.m */; };
@@ -125,7 +124,7 @@
 		6DEE26911BFDA14A00539365 /* NARequiredTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25D71BFDA14A00539365 /* NARequiredTitleLabel.m */; };
 		6DEE26921BFDA14A00539365 /* NAHostManualConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25DA1BFDA14A00539365 /* NAHostManualConfigVC.m */; };
 		6DEE26941BFDA14A00539365 /* UIViewController+UIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25DE1BFDA14A00539365 /* UIViewController+UIExtension.m */; };
-		6DEE26951BFDA14A00539365 /* NAHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25E21BFDA14A00539365 /* NAHostConfig.m */; };
+		6DEE269C1BFDD2B100539365 /* NAHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE269B1BFDD2B100539365 /* NAHostConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,8 +171,6 @@
 		6DEE249C1BFDA14A00539365 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		6DEE249D1BFDA14A00539365 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
 		6DEE249E1BFDA14A00539365 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
-		6DEE249F1BFDA14A00539365 /* NACommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACommon.h; sourceTree = "<group>"; };
-		6DEE24A01BFDA14A00539365 /* NACommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACommon.m; sourceTree = "<group>"; };
 		6DEE24A31BFDA14A00539365 /* NADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADevice.h; sourceTree = "<group>"; };
 		6DEE24A41BFDA14A00539365 /* NADevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADevice.m; sourceTree = "<group>"; };
 		6DEE24A61BFDA14A00539365 /* NADateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADateFormatter.h; sourceTree = "<group>"; };
@@ -337,8 +334,8 @@
 		6DEE25DD1BFDA14A00539365 /* UIViewController+UIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIExtension.h"; sourceTree = "<group>"; };
 		6DEE25DE1BFDA14A00539365 /* UIViewController+UIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIExtension.m"; sourceTree = "<group>"; };
 		6DEE25DF1BFDA14A00539365 /* NAUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIKit.h; sourceTree = "<group>"; };
-		6DEE25E11BFDA14A00539365 /* NAHostConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHostConfig.h; sourceTree = "<group>"; };
-		6DEE25E21BFDA14A00539365 /* NAHostConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHostConfig.m; sourceTree = "<group>"; };
+		6DEE269A1BFDD2B100539365 /* NAHostConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHostConfig.h; sourceTree = "<group>"; };
+		6DEE269B1BFDD2B100539365 /* NAHostConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHostConfig.m; sourceTree = "<group>"; };
 		9915578246E021A713BEEC45 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -409,12 +406,9 @@
 		6DEE247D1BFDA14A00539365 /* NACommonFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				6DEE249F1BFDA14A00539365 /* NACommon.h */,
-				6DEE24A01BFDA14A00539365 /* NACommon.m */,
 				6DEE247E1BFDA14A00539365 /* Foundation */,
 				6DEE24A11BFDA14A00539365 /* persistence */,
 				6DEE24CF1BFDA14A00539365 /* presentation */,
-				6DEE25E01BFDA14A00539365 /* system */,
 			);
 			path = NACommonFoundation;
 			sourceTree = "<group>";
@@ -503,24 +497,15 @@
 		6DEE24AE1BFDA14A00539365 /* http */ = {
 			isa = PBXGroup;
 			children = (
-				6DEE24AF1BFDA14A00539365 /* NAAFHttpRequest.h */,
-				6DEE24B01BFDA14A00539365 /* NAAFHttpRequest.m */,
-				6DEE24B11BFDA14A00539365 /* NAAFHttpTranscations.h */,
-				6DEE24B21BFDA14A00539365 /* NAAFHttpTranscations.m */,
-				6DEE24B31BFDA14A00539365 /* NAASIHttpRequest.h */,
-				6DEE24B41BFDA14A00539365 /* NAASIHttpRequest.m */,
-				6DEE24B51BFDA14A00539365 /* NAASIHttpTranscations.h */,
-				6DEE24B61BFDA14A00539365 /* NAASIHttpTranscations.m */,
-				6DEE24B71BFDA14A00539365 /* NAHttpRequest.h */,
-				6DEE24B81BFDA14A00539365 /* NAHttpRequest.m */,
+				6DEE269A1BFDD2B100539365 /* NAHostConfig.h */,
+				6DEE269B1BFDD2B100539365 /* NAHostConfig.m */,
 				6DEE24B91BFDA14A00539365 /* NAHttpRequestConfig.h */,
 				6DEE24BA1BFDA14A00539365 /* NAHttpRequestConfig.m */,
-				6DEE24BB1BFDA14A00539365 /* NAHttpRequestManager.h */,
-				6DEE24BC1BFDA14A00539365 /* NAHttpRequestManager.m */,
-				6DEE24BD1BFDA14A00539365 /* NAHttpResponse.h */,
-				6DEE24BE1BFDA14A00539365 /* NAHttpResponse.m */,
-				6DEE24BF1BFDA14A00539365 /* NAHttpTranscations.h */,
-				6DEE24C01BFDA14A00539365 /* NAHttpTranscations.m */,
+				6DEE24B11BFDA14A00539365 /* NAAFHttpTranscations.h */,
+				6DEE24B21BFDA14A00539365 /* NAAFHttpTranscations.m */,
+				6DEE24B51BFDA14A00539365 /* NAASIHttpTranscations.h */,
+				6DEE24B61BFDA14A00539365 /* NAASIHttpTranscations.m */,
+				6DEE26971BFDD21300539365 /* core */,
 			);
 			path = http;
 			sourceTree = "<group>";
@@ -851,13 +836,39 @@
 			path = viewc;
 			sourceTree = "<group>";
 		};
-		6DEE25E01BFDA14A00539365 /* system */ = {
+		6DEE26971BFDD21300539365 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				6DEE25E11BFDA14A00539365 /* NAHostConfig.h */,
-				6DEE25E21BFDA14A00539365 /* NAHostConfig.m */,
+				6DEE26991BFDD23B00539365 /* af */,
+				6DEE26981BFDD23200539365 /* asi */,
+				6DEE24B71BFDA14A00539365 /* NAHttpRequest.h */,
+				6DEE24B81BFDA14A00539365 /* NAHttpRequest.m */,
+				6DEE24BB1BFDA14A00539365 /* NAHttpRequestManager.h */,
+				6DEE24BC1BFDA14A00539365 /* NAHttpRequestManager.m */,
+				6DEE24BD1BFDA14A00539365 /* NAHttpResponse.h */,
+				6DEE24BE1BFDA14A00539365 /* NAHttpResponse.m */,
+				6DEE24BF1BFDA14A00539365 /* NAHttpTranscations.h */,
+				6DEE24C01BFDA14A00539365 /* NAHttpTranscations.m */,
 			);
-			path = system;
+			name = core;
+			sourceTree = "<group>";
+		};
+		6DEE26981BFDD23200539365 /* asi */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE24B31BFDA14A00539365 /* NAASIHttpRequest.h */,
+				6DEE24B41BFDA14A00539365 /* NAASIHttpRequest.m */,
+			);
+			name = asi;
+			sourceTree = "<group>";
+		};
+		6DEE26991BFDD23B00539365 /* af */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE24AF1BFDA14A00539365 /* NAAFHttpRequest.h */,
+				6DEE24B01BFDA14A00539365 /* NAAFHttpRequest.m */,
+			);
+			name = af;
 			sourceTree = "<group>";
 		};
 		6E4C2877666BCE3D3C2C6C8D /* Pods */ = {
@@ -1038,7 +1049,6 @@
 				6DEE26071BFDA14A00539365 /* NADataSerializer.m in Sources */,
 				6DEE268D1BFDA14A00539365 /* NADatePickerMenu.m in Sources */,
 				6DEE26521BFDA14A00539365 /* NAImagePickerView.m in Sources */,
-				6DEE25F31BFDA14A00539365 /* NACommon.m in Sources */,
 				6DEE26831BFDA14A00539365 /* NAImgPickerCell.m in Sources */,
 				6DEE26061BFDA14A00539365 /* NALog.m in Sources */,
 				6DEE25FD1BFDA14A00539365 /* NAHttpRequest.m in Sources */,
@@ -1050,6 +1060,7 @@
 				6DEE26881BFDA14A00539365 /* NAMobileTextField.m in Sources */,
 				6DEE267B1BFDA14A00539365 /* NAFocalPointView.m in Sources */,
 				6DEE25E71BFDA14A00539365 /* NSData+MD5.m in Sources */,
+				6DEE269C1BFDD2B100539365 /* NAHostConfig.m in Sources */,
 				6DEE26901BFDA14A00539365 /* NAProgress.m in Sources */,
 				6DEE26561BFDA14A00539365 /* NATextField.m in Sources */,
 				6DEE260E1BFDA14A00539365 /* UITextField+Extension.m in Sources */,
@@ -1057,7 +1068,6 @@
 				6DEE25F91BFDA14A00539365 /* NAAFHttpRequest.m in Sources */,
 				6DEE268E1BFDA14A00539365 /* NAPickerMenu.m in Sources */,
 				6DEE25E61BFDA14A00539365 /* NSData+Base64.m in Sources */,
-				6DEE26951BFDA14A00539365 /* NAHostConfig.m in Sources */,
 				6DEE25EA1BFDA14A00539365 /* NSIndexSet+NAFoundation.m in Sources */,
 				6DEE25FB1BFDA14A00539365 /* NAASIHttpRequest.m in Sources */,
 				6DEE25EB1BFDA14A00539365 /* NSMutableArray+NAFoundation.m in Sources */,
