@@ -13,8 +13,8 @@
 #if __cplusplus
 extern "C" {
 #endif
-CGFloat NA_degreesToRadians(CGFloat degrees) { return degrees * M_PI / 180; };
-CGFloat NA_radiansToDegrees(CGFloat radians) { return radians * 180 / M_PI; };
+CGFloat na_degreesToRadians(CGFloat degrees) { return degrees * M_PI / 180; };
+CGFloat na_radiansToDegrees(CGFloat radians) { return radians * 180 / M_PI; };
 #if _cplusplus
 }
 #endif

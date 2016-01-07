@@ -11,6 +11,6 @@
 @interface NSDateComponents (NAFoundation)
 
 
-+ (NSDateComponents *)NA_calendarWithDate:(NSDate *)date;
++ (NSDateComponents *)na_calendarWithDate:(NSDate *)date;
 
 @end

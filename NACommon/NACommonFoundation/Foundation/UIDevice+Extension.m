@@ -51,19 +51,19 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
 
 @implementation UIDevice (Extension)
 
-+ (NSString *)NA_systemVersion {
++ (NSString *)na_systemVersion {
     return [UIDevice currentDevice].systemVersion;
 }
 
-+ (CGFloat)NA_screenWidth {
++ (CGFloat)na_screenWidth {
     return SCREEN_WIDTH;
 }
 
-+ (CGFloat)NA_screenHeight {
++ (CGFloat)na_screenHeight {
     return SCREEN_HEIGHT;
 }
 
-+ (NSString *)NA_devicePlatform {
++ (NSString *)na_devicePlatform {
     size_t size;
     sysctlbyname("hw.machine", NULL, &size, NULL, 0);
     char *machine = malloc(size);
@@ -74,7 +74,7 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
 }
 
 + (NSString *)devicePlatformString {
-    NSString *platform = [self NA_devicePlatform];
+    NSString *platform = [self na_devicePlatform];
     // iPhone
     if ([platform isEqualToString:@"iPhone1,1"])
         return @"iPhone 2G";
@@ -175,35 +175,35 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
     return platform;
 }
 
-+ (BOOL)NA_isiPad {
-    if ([[[self NA_devicePlatform] substringToIndex:4] isEqualToString:@"iPad"])
++ (BOOL)na_isiPad {
+    if ([[[self na_devicePlatform] substringToIndex:4] isEqualToString:@"iPad"])
         return YES;
     else
         return NO;
 }
 
-+ (BOOL)NA_isiPhone {
-    if ([[[self NA_devicePlatform] substringToIndex:6] isEqualToString:@"iPhone"])
++ (BOOL)na_isiPhone {
+    if ([[[self na_devicePlatform] substringToIndex:6] isEqualToString:@"iPhone"])
         return YES;
     else
         return NO;
 }
 
-+ (BOOL)NA_isiPod {
-    if ([[[self NA_devicePlatform] substringToIndex:4] isEqualToString:@"iPod"])
++ (BOOL)na_isiPod {
+    if ([[[self na_devicePlatform] substringToIndex:4] isEqualToString:@"iPod"])
         return YES;
     else
         return NO;
 }
 
-+ (BOOL)NA_isSimulator {
-    if ([[self NA_devicePlatform] isEqualToString:@"i386"] || [[self NA_devicePlatform] isEqualToString:@"x86_64"])
++ (BOOL)na_isSimulator {
+    if ([[self na_devicePlatform] isEqualToString:@"i386"] || [[self na_devicePlatform] isEqualToString:@"x86_64"])
         return YES;
     else
         return NO;
 }
 
-+ (BOOL)NA_isRetina {
++ (BOOL)na_isRetina {
     if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
         ([UIScreen mainScreen].scale == 2.0 || [UIScreen mainScreen].scale == 3.0))
         return YES;
@@ -211,7 +211,7 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
         return NO;
 }
 
-+ (BOOL)NA_isRetinaHD {
++ (BOOL)na_isRetinaHD {
     if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && ([UIScreen mainScreen].scale == 3.0))
         return YES;
     else
@@ -264,7 +264,7 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
     return [fattributes objectForKey:NSFileSystemFreeSize];
 }
 
-+ (NSString *)NA_MACAddress {
++ (NSString *)na_MACAddress {
     int mib[6];
     size_t len;
     char *buf;
@@ -309,7 +309,7 @@ static NSString *const BFUniqueIdentifierDefaultsKey = @"BFUniqueIdentifier";
     return outstring;
 }
 
-+ (NSString *)NA_IPAddress {
++ (NSString *)na_IPAddress {
     NSString *address = @"error";
     struct ifaddrs *interfaces = NULL;
     struct ifaddrs *temp_addr = NULL;

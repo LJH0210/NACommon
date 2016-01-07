@@ -10,7 +10,7 @@
 
 @implementation NSDateComponents (NAFoundation)
 
-+ (NSDateComponents *)NA_calendarWithDate:(NSDate *)date{
++ (NSDateComponents *)na_calendarWithDate:(NSDate *)date{
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *comps = [[NSDateComponents alloc] init];
     NSInteger unitFlags = NSYearCalendarUnit |

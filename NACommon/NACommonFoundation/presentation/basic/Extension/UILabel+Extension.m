@@ -14,7 +14,7 @@
 - (CGRect)NA_autoHeightSize {
     self.numberOfLines = 0;
     CGRect tmpframe = self.frame;
-    tmpframe.size.height = [self.text NA_countHeighWithWidth:self.frame.size.width font:self.font];
+    tmpframe.size.height = [self.text na_countHeighWithWidth:self.frame.size.width font:self.font];
     self.frame = tmpframe;
     return self.frame;
 }

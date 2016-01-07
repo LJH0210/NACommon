@@ -10,7 +10,7 @@
 
 @implementation NSString (NAFoundation)
 
-+ (BOOL)NA_isEmptyString:(NSString *)string {
++ (BOOL)na_isEmptyString:(NSString *)string {
     if (string == nil || [string isKindOfClass:[NSNull class]])
         return YES;
     NSString *tmp = [string stringByReplacingOccurrencesOfString:@" " withString:@""];
@@ -19,23 +19,23 @@
     return NO;
 }
 
-+ (NSString *)NA_retNotEmptyString:(NSString *)inputString defaultString:(NSString *)defaul {
-    return [NSString NA_isEmptyString:inputString] ? defaul : inputString;
++ (NSString *)na_retNotEmptyString:(NSString *)inputString defaultString:(NSString *)defaul {
+    return [NSString na_isEmptyString:inputString] ? defaul : inputString;
 }
 
-+ (NSString *)NA_innerVersion {
++ (NSString *)na_innerVersion {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
 
-+ (NSString *)NA_outerVersion {
++ (NSString *)na_outerVersion {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
-+ (NSString *)NA_appDisplayName {
++ (NSString *)na_appDisplayName {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
 }
 
-- (BOOL)NA_containString:(NSString *)aString {
+- (BOOL)na_containString:(NSString *)aString {
     NSRange range = [self rangeOfString:aString];
     if (range.location == NSNotFound) {
         return NO;
@@ -43,7 +43,7 @@
     return YES;
 }
 
-- (CGSize)NA_commonSizeWithFont:(UIFont *)font containSize:(CGSize)containSize lineBreakMode:(NSLineBreakMode)mode {
+- (CGSize)na_commonSizeWithFont:(UIFont *)font containSize:(CGSize)containSize lineBreakMode:(NSLineBreakMode)mode {
     if ([self respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
         NSDictionary *attribute = @{NSFontAttributeName : font};
         CGSize size =
@@ -59,13 +59,13 @@
 }
 
 // 正则判断是否是 有效的手机号
-- (BOOL)NA_isValidateMobile {
+- (BOOL)na_isValidateMobile {
     NSString *emailRegex = @"(13[0-9]|18[0-9]|15[0-9]|17[0-9]|2[8-9][0-9])\\d{8}$";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
     return [emailTest evaluateWithObject:self];
 }
 
-- (CGFloat)NA_countHeighWithWidth:(int)width font:(UIFont *)font {
+- (CGFloat)na_countHeighWithWidth:(int)width font:(UIFont *)font {
     if ([self respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
         NSDictionary *attribute = @{NSFontAttributeName : font};
         CGSize size =
@@ -81,7 +81,7 @@
     }
 }
 
-- (BOOL)NA_isEmail {
+- (BOOL)na_isEmail {
     NSString *emailRegEx = @"(?:[a-z0-9!#$%\\&'*+/=?\\^_`{|}~-]+(?:\\.[a-z0-9!#$%\\&'*+/=?\\^_`{|}"
         @"~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\" @"x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-"
         @"z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5" @"]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-"
@@ -91,11 +91,11 @@
     return [regExPredicate evaluateWithObject:[self lowercaseString]];
 }
 
-+ (BOOL)NA_isEmail:(NSString *)email {
-    return [email NA_isEmail];
++ (BOOL)na_isEmail:(NSString *)email {
+    return [email na_isEmail];
 }
 
-- (BOOL)NA_isContainsEmoji {
+- (BOOL)na_isContainsEmoji {
 
     __block BOOL isEomji = NO;
     [self enumerateSubstringsInRange:NSMakeRange(0, [self length])

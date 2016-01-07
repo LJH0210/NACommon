@@ -10,7 +10,7 @@
 
 @implementation NAAlertView
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                               defaultValue:(NSString *)defaultValue
                                          cancelButtonTitle:(NSString *)cancelButtonTitle
@@ -26,7 +26,7 @@
                                                      onCancel:cancelled];
 }
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                                placeholder:(NSString *)placehoder
                                               keyboardType:(UIKeyboardType)keyboardType
@@ -44,7 +44,7 @@
                                                      onCancel:cancelled];
 }
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                               defaultValue:(NSString *)defaultValue
                                               keyboardType:(UIKeyboardType)keyboardType

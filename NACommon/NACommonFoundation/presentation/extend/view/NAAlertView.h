@@ -11,7 +11,7 @@
 
 @interface NAAlertView : NSObject
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                               defaultValue:(NSString *)defaultValue
                                          cancelButtonTitle:(NSString *)cancelButtonTitle
@@ -19,7 +19,7 @@
                                                  onDismiss:(DismissTextInputBLock)dismissed
                                                   onCancel:(CancelBlock)cancelled;
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                                placeholder:(NSString *)placehoder
                                               keyboardType:(UIKeyboardType)keyboardType
@@ -28,7 +28,7 @@
                                                  onDismiss:(DismissTextInputBLock)dismissed
                                                   onCancel:(CancelBlock)cancelled;
 
-+ (UIAlertView *)NA_alertViewStylePlainTextInputWithTitle:(NSString *)title
++ (UIAlertView *)na_alertViewStylePlainTextInputWithTitle:(NSString *)title
                                                    message:(NSString *)message
                                               defaultValue:(NSString *)defaultValue
                                               keyboardType:(UIKeyboardType)keyboardType

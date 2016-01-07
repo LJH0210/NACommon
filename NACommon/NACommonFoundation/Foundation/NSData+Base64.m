@@ -17,7 +17,7 @@
 
 @implementation NSData (Base64)
 
-+ (NSData *)NA_dataWithBase64EncodedString:(NSString *)string {
++ (NSData *)na_dataWithBase64EncodedString:(NSString *)string {
     if (![string length])
         return nil;
 
@@ -41,7 +41,7 @@
     return [decoded length] ? decoded : nil;
 }
 
-- (NSString *)NA_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth {
+- (NSString *)na_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth {
     if (![self length])
         return nil;
 
@@ -85,8 +85,8 @@
     return result;
 }
 
-- (NSString *)NA_base64EncodedString {
-    return [self NA_base64EncodedStringWithWrapWidth:0];
+- (NSString *)na_base64EncodedString {
+    return [self na_base64EncodedStringWithWrapWidth:0];
 }
 
 @end

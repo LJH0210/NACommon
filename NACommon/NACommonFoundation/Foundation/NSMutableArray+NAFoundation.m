@@ -12,13 +12,13 @@
 
 @implementation NSMutableArray (NAFoundation)
 
-- (void)NA_removeSafeObjectAtIndex:(NSUInteger)index {
+- (void)na_removeSafeObjectAtIndex:(NSUInteger)index {
     if ([self count] > 0 && [self count] > index) {
         [self removeObjectAtIndex:index];
     }
 }
 
-- (void)NA_removeSafeObjectsAtIndexes:(NSIndexSet *)indexes {
+- (void)na_removeSafeObjectsAtIndexes:(NSIndexSet *)indexes {
     if ([self count] > 0 && [self count] > indexes.maxIndex) {
         [self removeObjectsAtIndexes:indexes];
     } else {
@@ -32,9 +32,9 @@
     }
 }
 
-- (void)NA_objectFromIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex {
+- (void)na_objectFromIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex {
     if (fromIndex != toIndex && self.count > fromIndex && self.count > toIndex) {
-        id obj = [self NA_objectSafeAtIndex:fromIndex];
+        id obj = [self na_objectSafeAtIndex:fromIndex];
         id obj2 = [self objectAtIndex:toIndex];
         if (obj && obj2) {
             [self replaceObjectAtIndex:fromIndex withObject:obj2];
@@ -43,7 +43,7 @@
     }
 }
 
-+ (NSMutableArray *)NA_sortArrayByKey:(NSString *)key array:(NSMutableArray *)array ascending:(BOOL)ascending {
++ (NSMutableArray *)na_sortArrayByKey:(NSString *)key array:(NSMutableArray *)array ascending:(BOOL)ascending {
     NSMutableArray *tempArray = [[NSMutableArray alloc] init];
     [tempArray addObjectsFromArray:array];
     NSSortDescriptor *brandDescriptor = [[NSSortDescriptor alloc] initWithKey:key ascending:ascending];

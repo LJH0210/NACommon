@@ -26,14 +26,14 @@
 
 @implementation NSString (URLEncoding)
 
-- (NSString *)NA_URLEncodedString {
+- (NSString *)na_URLEncodedString {
     NSString *result = (NSString *)CFBridgingRelease(
         CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef)self, NULL, CFSTR("!*'();:@&=+$,/?%#[]"), kCFStringEncodingUTF8));
 
     return result;
 }
 
-- (NSString *)NA_URLDecodedString {
+- (NSString *)na_URLDecodedString {
     NSString *result = (NSString *)CFBridgingRelease(
         CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault, (CFStringRef)self, CFSTR(""), kCFStringEncodingUTF8));
     return result;

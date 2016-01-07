@@ -17,7 +17,7 @@
  *
  *  @return 加密后NSData对象
  */
-+ (NSData *)NA_dataWithBase64EncodedString:(NSString *)string;
++ (NSData *)na_dataWithBase64EncodedString:(NSString *)string;
 /**
  *  使用base64加密self
  *
@@ -25,12 +25,12 @@
  *
  *  @return 加密后NSString对象
  */
-- (NSString *)NA_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+- (NSString *)na_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
 /**
  *  使用base64加密self
  *
  *  @return 加密后的NSString对象
  */
-- (NSString *)NA_base64EncodedString;
+- (NSString *)na_base64EncodedString;
 
 @end

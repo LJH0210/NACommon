@@ -17,6 +17,6 @@
  *
  *  @return 获取的数组对象，越界返回nil
  */
-- (id)NA_objectSafeAtIndex:(NSUInteger)index;
+- (id)na_objectSafeAtIndex:(NSUInteger)index;
 
 @end

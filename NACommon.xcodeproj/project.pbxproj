@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6885F5F48D043DD8E23BCA04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */; };
+		6DE23FEF1C2416EA004AF615 /* NACommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */; };
 		6DEE24681BFDA10100539365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24671BFDA10100539365 /* main.m */; };
 		6DEE246B1BFDA10100539365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246A1BFDA10100539365 /* AppDelegate.m */; };
 		6DEE246E1BFDA10100539365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246D1BFDA10100539365 /* ViewController.m */; };
@@ -127,8 +128,21 @@
 		6DEE269C1BFDD2B100539365 /* NAHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE269B1BFDD2B100539365 /* NAHostConfig.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6DE23FF11C2416EA004AF615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DEE245B1BFDA10100539365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEE24621BFDA10100539365;
+			remoteInfo = NACommon;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonUITests.m; sourceTree = "<group>"; };
+		6DE23FF01C2416EA004AF615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEE24631BFDA10100539365 /* NACommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NACommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEE24671BFDA10100539365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DEE24691BFDA10100539365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -342,6 +356,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6DE23FE91C2416EA004AF615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DEE24601BFDA10100539365 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,10 +382,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6DE23FED1C2416EA004AF615 /* NACommonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */,
+				6DE23FF01C2416EA004AF615 /* Info.plist */,
+			);
+			path = NACommonUITests;
+			sourceTree = "<group>";
+		};
 		6DEE245A1BFDA10100539365 = {
 			isa = PBXGroup;
 			children = (
 				6DEE24651BFDA10100539365 /* NACommon */,
+				6DE23FED1C2416EA004AF615 /* NACommonUITests */,
 				6DEE24641BFDA10100539365 /* Products */,
 				6E4C2877666BCE3D3C2C6C8D /* Pods */,
 				266BB425147009B224B17222 /* Frameworks */,
@@ -375,6 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				6DEE24631BFDA10100539365 /* NACommon.app */,
+				6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -885,6 +917,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6DE23FEB1C2416EA004AF615 /* NACommonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonUITests" */;
+			buildPhases = (
+				6DE23FE81C2416EA004AF615 /* Sources */,
+				6DE23FE91C2416EA004AF615 /* Frameworks */,
+				6DE23FEA1C2416EA004AF615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE23FF21C2416EA004AF615 /* PBXTargetDependency */,
+			);
+			name = NACommonUITests;
+			productName = NACommonUITests;
+			productReference = 6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6DEE24621BFDA10100539365 /* NACommon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DEE247A1BFDA10100539365 /* Build configuration list for PBXNativeTarget "NACommon" */;
@@ -914,6 +964,11 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = LJH;
 				TargetAttributes = {
+					6DE23FEB1C2416EA004AF615 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2H5B82A5NY;
+						TestTargetID = 6DEE24621BFDA10100539365;
+					};
 					6DEE24621BFDA10100539365 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 2H5B82A5NY;
@@ -934,11 +989,19 @@
 			projectRoot = "";
 			targets = (
 				6DEE24621BFDA10100539365 /* NACommon */,
+				6DE23FEB1C2416EA004AF615 /* NACommonUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6DE23FEA1C2416EA004AF615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DEE24611BFDA10100539365 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1026,6 +1089,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6DE23FE81C2416EA004AF615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE23FEF1C2416EA004AF615 /* NACommonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DEE245F1BFDA10100539365 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1123,6 +1194,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6DE23FF21C2416EA004AF615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEE24621BFDA10100539365 /* NACommon */;
+			targetProxy = 6DE23FF11C2416EA004AF615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		6DEE246F1BFDA10100539365 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1143,6 +1222,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6DE23FF31C2416EA004AF615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NACommonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NACommon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6DE23FF41C2416EA004AF615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NACommonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NACommon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		6DEE24781BFDA10100539365 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1254,6 +1359,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE23FF31C2416EA004AF615 /* Debug */,
+				6DE23FF41C2416EA004AF615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6DEE245E1BFDA10100539365 /* Build configuration list for PBXProject "NACommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

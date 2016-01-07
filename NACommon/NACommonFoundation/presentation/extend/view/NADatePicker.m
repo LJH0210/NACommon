@@ -23,7 +23,7 @@
  *
  *  @return
  */
-+ (NADatePickerMenu *)NA_viewWithDate:(NSDate *)date
++ (NADatePickerMenu *)na_viewWithDate:(NSDate *)date
                                    mode:(UIDatePickerMode)mode
                           leftToolTitle:(NSString *)leftToolTitle
                           leftToolBlock:(NAPickerMenuDateLeftToolBlock)leftBlock
@@ -50,7 +50,7 @@
  *
  *  @return
  */
-+ (NADatePickerMenu *)NA_viewWithDate:(NSDate *)date
++ (NADatePickerMenu *)na_viewWithDate:(NSDate *)date
                       valueChangedBlock:(NAPickerMenuDateValueChangedBlock)changed
                                    mode:(UIDatePickerMode)mode
                             isFullStyle:(BOOL)isfull {

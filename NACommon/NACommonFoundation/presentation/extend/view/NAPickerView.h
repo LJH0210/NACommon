@@ -24,7 +24,7 @@
  *
  *  @return NAPickerMenu对象
  */
-+ (NAPickerMenu *)NA_pickerViewWithMenuArray:(NSArray *)array
++ (NAPickerMenu *)na_pickerViewWithMenuArray:(NSArray *)array
                                   leftToolTile:(NSString *)leftTitle
                                  leftToolBlock:(NAPickerMenuArrayLeftToolBlock)leftBlock
                                 rightToolTitle:(NSString *)rightTitle
@@ -45,7 +45,7 @@
  *
  *  @return NAPickerMenu对象
  */
-+ (NAPickerMenu *)NA_pickerViewWithMutiArray:(NSArray *)array
++ (NAPickerMenu *)na_pickerViewWithMutiArray:(NSArray *)array
                                   leftToolTile:(NSString *)leftTitle
                                  leftToolBlock:(NAPickerMutiArrayLeftToolBlock)leftBlock
                                 rightToolTitle:(NSString *)rightTitle
@@ -66,7 +66,7 @@
  *
  *  @return NAPickerMenu对象
  */
-+ (NAPickerMenu *)NA_pickerViewWithMultiDictionary:(NSDictionary *)dic
++ (NAPickerMenu *)na_pickerViewWithMultiDictionary:(NSDictionary *)dic
                                         leftToolTile:(NSString *)leftTitle
                                        leftToolBlock:(NAPickerMultiArrayCustomLeftToolBlock)leftBlock
                                       rightToolTitle:(NSString *)rightTitle

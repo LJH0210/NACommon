@@ -11,8 +11,8 @@
 
 @implementation NSString (MD5)
 
-- (NSString *)NA_md5Hash {
-    return [[self dataUsingEncoding:NSUTF8StringEncoding] NA_md5Hash];
+- (NSString *)na_md5Hash {
+    return [[self dataUsingEncoding:NSUTF8StringEncoding] na_md5Hash];
 }
 
 @end

@@ -24,7 +24,7 @@
  *
  *  @return NAMobileTextField实例
  */
-+ (NAMobileTextField *)NA_mobileTextWithFrame:(CGRect)frame seperation:(NSString *)seperate valueChange:(UITextFieldValueDidChangedBlock)valueChanged;
++ (NAMobileTextField *)na_mobileTextWithFrame:(CGRect)frame seperation:(NSString *)seperate valueChange:(UITextFieldValueDidChangedBlock)valueChanged;
 
 /**
  *  数字输入框  NANumberTextField.seperation  左侧标识符  NANumberTextField.rightSeperation 右侧标识符
@@ -37,7 +37,7 @@
  *  @return NANumberTextField实例
  */
 
-+ (NANumberTextField *)NA_numberTextWithFrame:(CGRect)frame
++ (NANumberTextField *)na_numberTextWithFrame:(CGRect)frame
                                      textLength:(int)textlength
                                   decimalBounds:(int)decimalBounds
                                     valueChange:(UITextFieldValueDidChangedBlock)valueChanged;

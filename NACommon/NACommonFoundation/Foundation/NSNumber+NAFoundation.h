@@ -23,7 +23,7 @@ extern "C" {
  *
  *  @return 弧度
  */
-CGFloat NA_degreesToRadians(CGFloat degrees);
+CGFloat na_degreesToRadians(CGFloat degrees);
 /**
  *  弧度 转 角度
  *
@@ -31,7 +31,7 @@ CGFloat NA_degreesToRadians(CGFloat degrees);
  *
  *  @return 角度
  */
-CGFloat NA_radiansToDegrees(CGFloat radians);
+CGFloat na_radiansToDegrees(CGFloat radians);
 #if _cplusplus
 }
 #endif

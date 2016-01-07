@@ -11,30 +11,30 @@
 
 @implementation NSString (Base64)
 
-+ (NSString *)NA_stringWithBase64EncodedString:(NSString *)string {
-    NSData *data = [NSData NA_dataWithBase64EncodedString:string];
++ (NSString *)na_stringWithBase64EncodedString:(NSString *)string {
+    NSData *data = [NSData na_dataWithBase64EncodedString:string];
     if (data) {
         return [[self alloc] initWithData:data encoding:NSUTF8StringEncoding];
     }
     return nil;
 }
 
-- (NSString *)NA_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth {
+- (NSString *)na_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    return [data NA_base64EncodedStringWithWrapWidth:wrapWidth];
+    return [data na_base64EncodedStringWithWrapWidth:wrapWidth];
 }
 
-- (NSString *)NA_base64EncodedString {
+- (NSString *)na_base64EncodedString {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    return [data NA_base64EncodedString];
+    return [data na_base64EncodedString];
 }
 
-- (NSString *)NA_base64DecodedString {
-    return [NSString NA_stringWithBase64EncodedString:self];
+- (NSString *)na_base64DecodedString {
+    return [NSString na_stringWithBase64EncodedString:self];
 }
 
-- (NSData *)NA_base64DecodedData {
-    return [NSData NA_dataWithBase64EncodedString:self];
+- (NSData *)na_base64DecodedData {
+    return [NSData na_dataWithBase64EncodedString:self];
 }
 
 @end

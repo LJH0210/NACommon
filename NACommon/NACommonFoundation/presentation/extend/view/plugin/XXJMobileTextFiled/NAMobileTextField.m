@@ -171,7 +171,7 @@
     //通过count的值和当前的textField内容的长度比较，如果count大那么证明是删除，反之增加
     _count = field.text.length;
     if (_valueChangeBlock) {
-        NSString *st = [NSString NA_retNotEmptyString:str defaultString:@""];
+        NSString *st = [NSString na_retNotEmptyString:str defaultString:@""];
         _valueChangeBlock(st);
     }
 }

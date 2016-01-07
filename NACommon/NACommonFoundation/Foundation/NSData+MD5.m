@@ -11,7 +11,7 @@
 
 @implementation NSData (MD5)
 
-- (NSString *)NA_md5Hash {
+- (NSString *)na_md5Hash {
     unsigned char result[CC_MD5_DIGEST_LENGTH];
     CC_MD5([self bytes], (CC_LONG)[self length], result);
 

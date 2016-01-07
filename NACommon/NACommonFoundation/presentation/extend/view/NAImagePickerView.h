@@ -19,6 +19,6 @@
  *  @allowsEditing  是否可编辑，YES为头像正方形模式，NO 全屏模式
  *  @return return NAImgPickerView对象
  */
-+ (NAImgPickerView *)NA_imagePickerWithFrame:(CGRect)frame limitCount:(int)limitCount allowsEditing:(BOOL)allowsEditing;
++ (NAImgPickerView *)na_imagePickerWithFrame:(CGRect)frame limitCount:(int)limitCount allowsEditing:(BOOL)allowsEditing;
 
 @end

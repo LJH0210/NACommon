@@ -18,7 +18,7 @@
     return [calendar dateFromComponents:components];
 }
 
-+ (NSDate *)NA_yesterday {
++ (NSDate *)na_yesterday {
     NSCalendar *cal = [NSCalendar currentCalendar];
     NSDateComponents *components = [cal components:(NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond)fromDate:[NSDate date]];
     [components setHour:-[components hour]];
@@ -35,7 +35,7 @@
 }
 
 //返回当前月一共有几周(可能为4,5,6)
-- (int)NA_getWeekNumOfMonth {
+- (int)na_getWeekNumOfMonth {
     return [[self endOfMonth] getWeekOfYear] - [[self beginningOfMonth] getWeekOfYear] + 1;
 }
 
@@ -44,7 +44,7 @@
     int i;
     int year = [self getYear];
     NSDate *date = [self endOfWeek];
-    for (i = 1;[[date NA_dateAfterDay:-7 * i] getYear] == year; i++) {
+    for (i = 1;[[date na_dateAfterDay:-7 * i] getYear] == year; i++) {
     }
     return i;
 }
@@ -78,16 +78,16 @@
 
 //该月的最后一天
 - (NSDate *)endOfMonth {
-    return [[[self beginningOfMonth] dateafterMonth:1] NA_dateAfterDay:-1];
+    return [[[self beginningOfMonth] dateafterMonth:1] na_dateAfterDay:-1];
 }
 
 //返回该月的第一天
 - (NSDate *)beginningOfMonth {
-    return [self NA_dateAfterDay:-[self getDay] + 1];
+    return [self na_dateAfterDay:-[self getDay] + 1];
 }
 
 //返回day天后的日期(若day为负数,则为|day|天前的日期)
-- (NSDate *)NA_dateAfterDay:(int)day {
+- (NSDate *)na_dateAfterDay:(int)day {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     // Get the weekday component of the current date
     // NSDateComponents *weekdayComponents = [calendar components:NSWeekdayCalendarUnit fromDate:self];
@@ -98,7 +98,7 @@
     return dateAfterDay;
 }
 
-+ (NSDate *)NA_dateWithSting:(NSString *)stringDate dateFormat:(NSString *)format {
++ (NSDate *)na_dateWithSting:(NSString *)stringDate dateFormat:(NSString *)format {
     if ((nil == stringDate) || (0 == stringDate.length) || format == nil || format.length == 0) {
         return nil;
     }
@@ -111,7 +111,7 @@
     return date;
 }
 
-+ (NSString *)NA_stingWithDate:(NSDate *)date dateFormat:(NSString *)format {
++ (NSString *)na_stingWithDate:(NSDate *)date dateFormat:(NSString *)format {
     if (nil == date || nil == format) {
         return nil;
     }
@@ -125,18 +125,18 @@
     return stringDate;
 }
 
-- (BOOL)NA_isSameDay:(NSDate *)anotherDate {
+- (BOOL)na_isSameDay:(NSDate *)anotherDate {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components1 = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)fromDate:self];
     NSDateComponents *components2 = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay)fromDate:anotherDate];
     return ([components1 year] == [components2 year] && [components1 month] == [components2 month] && [components1 day] == [components2 day]);
 }
 
-- (BOOL)NA_isToday {
-    return [self NA_isSameDay:[NSDate date]];
+- (BOOL)na_isToday {
+    return [self na_isSameDay:[NSDate date]];
 }
 
-- (NADateInformation)NA_dateInformation {
+- (NADateInformation)_dateInformation {
     NADateInformation info;
 
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];

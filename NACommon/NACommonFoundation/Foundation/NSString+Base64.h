@@ -17,7 +17,7 @@
  *
  *  @return 加密后字符串
  */
-+ (NSString *)NA_stringWithBase64EncodedString:(NSString *)string;
++ (NSString *)na_stringWithBase64EncodedString:(NSString *)string;
 /**
  *  使用base64加密输入字符串
  *
@@ -25,25 +25,25 @@
  *
  *  @return 加密后字符串
  */
-- (NSString *)NA_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+- (NSString *)na_base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
 /**
  *  使用base64加密self字符串
  *
  *  @return 加密后字符串
  */
-- (NSString *)NA_base64EncodedString;
+- (NSString *)na_base64EncodedString;
 /**
  *  解密base64字符串
  *
  *  @return 解密后base64字符串
  */
-- (NSString *)NA_base64DecodedString;
+- (NSString *)na_base64DecodedString;
 
 /**
  *  解密base64字符串
  *
  *  @return 解密后的NSData对象
  */
-- (NSData *)NA_base64DecodedData;
+- (NSData *)na_base64DecodedData;
 
 @end

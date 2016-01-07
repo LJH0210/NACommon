@@ -23,7 +23,7 @@
  *
  *  @return NSAttributedString对象
  */
-+ (NSAttributedString *)NA_attribuedStringWithleftIndentify:(NSString *)leftIndentify
++ (NSAttributedString *)na_attribuedStringWithleftIndentify:(NSString *)leftIndentify
                                                     leftFont:(UIFont *)leftFont
                                                    leftColor:(UIColor *)leftColor
                                                       String:(NSString *)string
@@ -45,7 +45,7 @@
  *
  *  @return NSAttributedString
  */
-+ (NSAttributedString *)NA_attribuedStringWithLeftIndentify:(NSString *)leftIndentify
++ (NSAttributedString *)na_attribuedStringWithLeftIndentify:(NSString *)leftIndentify
                                                     leftFont:(UIFont *)leftFont
                                                    leftColor:(UIColor *)leftColor
                                                       string:(NSString *)string

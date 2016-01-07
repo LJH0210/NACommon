@@ -10,7 +10,7 @@
 
 @implementation NAImagePickerView
 
-+ (NAImgPickerView *)NA_imagePickerWithFrame:(CGRect)frame limitCount:(int)limitCount allowsEditing:(BOOL)allowsEditing {
++ (NAImgPickerView *)na_imagePickerWithFrame:(CGRect)frame limitCount:(int)limitCount allowsEditing:(BOOL)allowsEditing {
     NAImgPickerView *imp = [[NAImgPickerView alloc] initWithFrame:frame];
     if (limitCount > 0) {
         imp.imgCount = limitCount;

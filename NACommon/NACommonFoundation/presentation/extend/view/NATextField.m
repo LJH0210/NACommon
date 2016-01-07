@@ -10,7 +10,7 @@
 
 @implementation NATextField
 
-+ (NAMobileTextField *)NA_mobileTextWithFrame:(CGRect)frame seperation:(NSString *)seperate valueChange:(UITextFieldValueDidChangedBlock)valueChanged {
++ (NAMobileTextField *)na_mobileTextWithFrame:(CGRect)frame seperation:(NSString *)seperate valueChange:(UITextFieldValueDidChangedBlock)valueChanged {
     NAMobileTextField *textField = [[NAMobileTextField alloc] initWithFrame:frame sepertaion:seperate valueChangeBlock:valueChanged];
     [textField setBorderStyle:UITextBorderStyleRoundedRect];
     [textField setClearButtonMode:UITextFieldViewModeWhileEditing];
@@ -21,7 +21,7 @@
     return textField;
 }
 
-+ (NANumberTextField *)NA_numberTextWithFrame:(CGRect)frame
++ (NANumberTextField *)na_numberTextWithFrame:(CGRect)frame
                                      textLength:(int)textlength
                                   decimalBounds:(int)decimalBounds
                                     valueChange:(UITextFieldValueDidChangedBlock)valueChanged {

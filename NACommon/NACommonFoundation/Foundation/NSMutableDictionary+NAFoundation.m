@@ -10,7 +10,7 @@
 
 @implementation NSMutableDictionary (NAFoundation)
 
-- (BOOL)NA_safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey {
+- (BOOL)na_safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey {
     if (nil == anObject) {
         return NO;
     }

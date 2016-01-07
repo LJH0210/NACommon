@@ -24,7 +24,7 @@ typedef struct NADateInformation NADateInformation;
 /**
  *  返回当前月一共有几周(可能为4,5,6)
  */
-- (int)NA_getWeekNumOfMonth;
+- (int)na_getWeekNumOfMonth;
 
 /**
  *  返回day天后的日期(若day为负数,则为|day|天前的日期)
@@ -32,14 +32,14 @@ typedef struct NADateInformation NADateInformation;
  *  @param day 返回day天后的日期(若day为负数,则为|day|天前的日期)
  *
  */
-- (NSDate *)NA_dateAfterDay:(int)day;
+- (NSDate *)na_dateAfterDay:(int)day;
 
 /**
  *  获取昨天日期NSDate对象
  *
  *  @return 昨天NSDate对象
  */
-+ (NSDate *)NA_yesterday;
++ (NSDate *)na_yesterday;
 
 /**
  *  NSString 转 NSDate
@@ -49,7 +49,7 @@ typedef struct NADateInformation NADateInformation;
  *
  *  @return NSDate
  */
-+ (NSDate *)NA_dateWithSting:(NSString *)stringDate dateFormat:(NSString *)format;
++ (NSDate *)na_dateWithSting:(NSString *)stringDate dateFormat:(NSString *)format;
 
 /**
  *  NSDate 转 NSString
@@ -59,7 +59,7 @@ typedef struct NADateInformation NADateInformation;
  *
  *  @return return value description
  */
-+ (NSString *)NA_stingWithDate:(NSDate *)date dateFormat:(NSString *)format;
++ (NSString *)na_stingWithDate:(NSDate *)date dateFormat:(NSString *)format;
 
 /**
  *  判断self和anotherDate是否是同一天
@@ -69,20 +69,20 @@ typedef struct NADateInformation NADateInformation;
  *  @return yes:同一天  no：不同天
  */
 
-- (BOOL)NA_isSameDay:(NSDate *)anotherDate;
+- (BOOL)na_isSameDay:(NSDate *)anotherDate;
 
 /**
  *  判断self 是否是今天
  *
  *  @return
  */
-- (BOOL)NA_isToday;
+- (BOOL)na_isToday;
 
 /**
  *  获取self的NADateInformation信息结构体
  *
  *  @return NADateInformation
  */
-- (NADateInformation)NA_dateInformation;
+- (NADateInformation)na_dateInformation;
 
 @end

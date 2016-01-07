@@ -18,6 +18,6 @@
  *
  *  @return YES：anObject不为空，设置成功   NO：anObject为空，设置失败
  */
-- (BOOL)NA_safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey;
+- (BOOL)na_safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey;
 
 @end

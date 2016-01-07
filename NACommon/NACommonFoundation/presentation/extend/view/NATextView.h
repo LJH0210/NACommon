@@ -24,7 +24,7 @@
 *  @return NACountTextView实例
 */
 
-+ (NACountTextView *)NA_textViewWithFrame:(CGRect)frame
++ (NACountTextView *)na_textViewWithFrame:(CGRect)frame
                                 placeHolder:(NSString *)placeHolder
                                    maxCount:(NSInteger)maxCount
                             placeHolderSize:(int)placeHolderSize

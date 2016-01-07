@@ -17,7 +17,7 @@
  *
  */
 
-- (void)NA_removeSafeObjectAtIndex:(NSUInteger)index;
+- (void)na_removeSafeObjectAtIndex:(NSUInteger)index;
 
 /**
  *  安全移除NSIndexSet对应NSMutableArray内的元素集，删除未越界索引对应元素
@@ -26,7 +26,7 @@
  *
  */
 
-- (void)NA_removeSafeObjectsAtIndexes:(NSIndexSet *)indexes;
+- (void)na_removeSafeObjectsAtIndexes:(NSIndexSet *)indexes;
 
 /**
  *  根据索引交换元素位置，越界不操作
@@ -35,7 +35,7 @@
  *  @param toIndex   交换元素的索引
  */
 
-- (void)NA_objectFromIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
+- (void)na_objectFromIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
 
 /**
  *  使用NSSortDescriptor对NSMutableArray进行排序
@@ -47,6 +47,6 @@
  *  @return 使用NSSortDescriptor排序后的数组
  */
 
-+ (NSMutableArray *)NA_sortArrayByKey:(NSString *)key array:(NSMutableArray *)array ascending:(BOOL)ascending;
++ (NSMutableArray *)na_sortArrayByKey:(NSString *)key array:(NSMutableArray *)array ascending:(BOOL)ascending;
 
 @end

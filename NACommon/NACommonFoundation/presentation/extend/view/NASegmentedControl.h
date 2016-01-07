@@ -24,7 +24,7 @@
  *
  *  @return  uicontrol instance
  */
-+ (HMSegmentedControl *)NA_segmentedWithFrame:(CGRect)frame
++ (HMSegmentedControl *)na_segmentedWithFrame:(CGRect)frame
                                         titles:(NSArray *)titles
                                     titleColor:(UIColor *)titleColor
                                backgroundColor:(UIColor *)backgroundcolor
@@ -46,7 +46,7 @@
  *
  *  @return uicontrol instance
  */
-+ (HMSegmentedControl *)NA_segmentedWithFrame:(CGRect)frame
++ (HMSegmentedControl *)na_segmentedWithFrame:(CGRect)frame
                                         titles:(NSArray *)titles
                                     titleColor:(UIColor *)titleColor
                               highlightedColor:(UIColor *)highlightColor

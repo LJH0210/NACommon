@@ -18,7 +18,7 @@
  *
  *  @return YES：string为空 NO：不为空
  */
-+ (BOOL)NA_isEmptyString:(NSString *)string;
++ (BOOL)na_isEmptyString:(NSString *)string;
 
 /**
  *  字符串为空时显示默认值
@@ -28,7 +28,7 @@
  *
  *  @return 返回判定后显示的字符串
  */
-+ (NSString *)NA_retNotEmptyString:(NSString *)inputString defaultString:(NSString *)defaul;
++ (NSString *)na_retNotEmptyString:(NSString *)inputString defaultString:(NSString *)defaul;
 
 /**
  *  判断NSString对象self是否有包含astring，系统containString为iOS8 SDK
@@ -37,13 +37,13 @@
  *
  *  @return YES：包含字符串astring NO:不包含
  */
-- (BOOL)NA_containString:(NSString *)aString;
+- (BOOL)na_containString:(NSString *)aString;
 /**
  *  判断是否是合法手机号
  *
  *  @return YES：满足手机号格式  NO：不满足
  */
-- (BOOL)NA_isValidateMobile;
+- (BOOL)na_isValidateMobile;
 
 /**
  *  根据字体和宽度计算NSString展示高度
@@ -53,7 +53,7 @@
  *
  *  @return 限制高度
  */
-- (CGFloat)NA_countHeighWithWidth:(int)width font:(UIFont *)font;
+- (CGFloat)na_countHeighWithWidth:(int)width font:(UIFont *)font;
 /**
  *  计算大小
  *
@@ -63,14 +63,14 @@
  *
  *  @return 字体面积
  */
-- (CGSize)NA_commonSizeWithFont:(UIFont *)font containSize:(CGSize)containSize lineBreakMode:(NSLineBreakMode)mode;
+- (CGSize)na_commonSizeWithFont:(UIFont *)font containSize:(CGSize)containSize lineBreakMode:(NSLineBreakMode)mode;
 
 /**
  *  判断self是否满足email格式
  *
  *  @return Return YES ：是email  NO：不是email
  */
-- (BOOL)NA_isEmail;
+- (BOOL)na_isEmail;
 
 /**
  *  判断输入string是否满足email格式
@@ -79,7 +79,7 @@
  *
  *  @return Return YES if it's an email, NO if not
  */
-+ (BOOL)NA_isEmail:(NSString *)email;
++ (BOOL)na_isEmail:(NSString *)email;
 
 /**
  *  是否包含emoji表情符号
@@ -87,7 +87,7 @@
  *
  *  @return YES：包含emoji表情
  */
-- (BOOL)NA_isContainsEmoji;
+- (BOOL)na_isContainsEmoji;
 
 #pragma mark APP INFO
 /**
@@ -97,7 +97,7 @@
  *
  *  @return 内部版本号
  */
-+ (NSString *)NA_innerVersion;
++ (NSString *)na_innerVersion;
 
 /**
  *  @author , 15-04-07 16:04:48
@@ -106,7 +106,7 @@
  *
  *  @return 外部版本号
  */
-+ (NSString *)NA_outerVersion;
++ (NSString *)na_outerVersion;
 
 /**
  *  @author , 15-08-24 18:08:09
@@ -115,6 +115,6 @@
  *
  *  @return app显示名称
  */
-+ (NSString *)NA_appDisplayName;
++ (NSString *)na_appDisplayName;
 
 @end

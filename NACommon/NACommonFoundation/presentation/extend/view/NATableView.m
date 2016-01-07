@@ -10,7 +10,7 @@
 
 @implementation NATableView
 
-+ (NARefreshLoadTableView *)NA_tableViewWithFrame:(CGRect)frame
++ (NARefreshLoadTableView *)na_tableViewWithFrame:(CGRect)frame
                                          useRefresh:(BOOL)useRefresh
                                         useLoadMore:(BOOL)useLoadMore
                               delegateAndDatasource:(id<UITableViewDelegate, UITableViewDataSource, NARefreshLoadTableViewDelegate>)delegate {
@@ -22,7 +22,7 @@
                           delegateAndDatasource:delegate];
 }
 
-+ (NARefreshLoadTableView *)NA_tableViewWithFrame:(CGRect)frame
++ (NARefreshLoadTableView *)na_tableViewWithFrame:(CGRect)frame
                                          useRefresh:(BOOL)useRefresh
                                    refreshClassName:(NSString *)refreshName
                                         useLoadMore:(BOOL)useLoadMore

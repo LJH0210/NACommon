@@ -15,6 +15,6 @@
  *
  *  @return 加密后字符串
  */
-- (NSString *)NA_md5Hash;
+- (NSString *)na_md5Hash;
 
 @end

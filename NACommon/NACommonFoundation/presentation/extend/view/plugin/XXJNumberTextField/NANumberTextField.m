@@ -127,7 +127,7 @@
     }
 
     if (decimalBounds > 0) {
-        if ([string NA_containString:@"."]) {
+        if ([string na_containString:@"."]) {
             NSArray *re = [string componentsSeparatedByString:@"."];
             if (re.count == 2) {
                 NSString *point = re.firstObject;
@@ -190,7 +190,7 @@
 
 - (void)setSeperation:(NSString *)seperation {
     _seperation = [[NSString alloc] initWithString:seperation];
-    if ([NSString NA_isEmptyString:_seperation]) {
+    if ([NSString na_isEmptyString:_seperation]) {
         _sepetationLabel.text = _seperation;
         _sepetationLabel.frame = CGRectZero;
     } else {
@@ -211,7 +211,7 @@
 
 - (void)setRightSeperation:(NSString *)rightSeperation {
     _rightSeperation = [[NSString alloc] initWithString:rightSeperation];
-    if ([NSString NA_isEmptyString:_rightSeperation]) {
+    if ([NSString na_isEmptyString:_rightSeperation]) {
         _rightSeperationLabel.text = _rightSeperation;
         _rightSeperationLabel.frame = CGRectZero;
     } else {

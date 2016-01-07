@@ -10,8 +10,8 @@
 
 @interface NAKeyChain : NSObject
 
-+ (void)NA_saveWithKeyInKeyChain:(NSString *)service data:(id)data;
-+ (id)NA_loadWithKeyInKeyChain:(NSString *)service;
-+ (void)NA_deleteWithKeyInKeyChain:(NSString *)service;
++ (void)na_saveWithKeyInKeyChain:(NSString *)service data:(id)data;
++ (id)na_loadWithKeyInKeyChain:(NSString *)service;
++ (void)na_deleteWithKeyInKeyChain:(NSString *)service;
 
 @end

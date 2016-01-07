@@ -14,7 +14,7 @@
 @implementation NADevice
 
 + (NSString *)hardwareModel {
-    return [UIDevice NA_devicePlatform];
+    return [UIDevice na_devicePlatform];
 }
 
 + (NSString *)versionForOS {

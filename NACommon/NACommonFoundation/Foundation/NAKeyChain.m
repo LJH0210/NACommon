@@ -17,7 +17,7 @@
                                                              nil];
 }
 
-+ (void)NA_saveWithKeyInKeyChain:(NSString *)service data:(id)data {
++ (void)na_saveWithKeyInKeyChain:(NSString *)service data:(id)data {
     // Get search dictionary
     NSMutableDictionary *keychainQuery = [self getKeychainQuery:service];
     // Delete old item before add new item
@@ -28,7 +28,7 @@
     SecItemAdd((__bridge_retained CFDictionaryRef)keychainQuery, NULL);
 }
 
-+ (id)NA_loadWithKeyInKeyChain:(NSString *)service {
++ (id)na_loadWithKeyInKeyChain:(NSString *)service {
     id ret = nil;
     NSMutableDictionary *keychainQuery = [self getKeychainQuery:service];
     // Configure the search setting
@@ -46,7 +46,7 @@
     return ret;
 }
 
-+ (void)NA_deleteWithKeyInKeyChain:(NSString *)service {
++ (void)na_deleteWithKeyInKeyChain:(NSString *)service {
     NSMutableDictionary *keychainQuery = [self getKeychainQuery:service];
     SecItemDelete((__bridge_retained CFDictionaryRef)keychainQuery);
 }

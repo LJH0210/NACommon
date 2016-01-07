@@ -31,12 +31,12 @@
  *
  *  @return 编码后的URL地址
  */
-- (NSString *)NA_URLEncodedString;
+- (NSString *)na_URLEncodedString;
 /**
  *  将URL的中文解码为正常显示
  *
  *  @return 解码后的URL地址
  */
-- (NSString *)NA_URLDecodedString;
+- (NSString *)na_URLDecodedString;
 
 @end
