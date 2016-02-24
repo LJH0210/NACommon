@@ -14,7 +14,7 @@
                                          useRefresh:(BOOL)useRefresh
                                         useLoadMore:(BOOL)useLoadMore
                               delegateAndDatasource:(id<UITableViewDelegate, UITableViewDataSource, NARefreshLoadTableViewDelegate>)delegate {
-    return [NATableView NA_tableViewWithFrame:frame
+    return [NATableView na_tableViewWithFrame:frame
                                      useRefresh:useRefresh
                                refreshClassName:nil
                                     useLoadMore:useLoadMore
