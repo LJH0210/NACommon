@@ -16,6 +16,7 @@
                             placeHolderSize:(int)placeHolderSize
                            placeHolderColor:(UIColor *)placeHolderColor
                                 valueChange:(UITextViewValueDidChangedBlock)valueChanged {
+
     NACountTextView *textView = [[NACountTextView alloc] initWithFrame:frame
                                                              placeHolder:placeHolder
                                                          placeHolderSize:placeHolderSize

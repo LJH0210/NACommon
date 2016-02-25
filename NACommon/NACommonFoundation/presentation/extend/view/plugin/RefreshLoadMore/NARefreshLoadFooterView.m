@@ -117,11 +117,11 @@
             [self setState:NAPullStatePulling];
             
         }
-        if (scrollView.contentInset.bottom != 0) {
-            UIEdgeInsets currentInsets = scrollView.contentInset;
-            currentInsets.bottom = 0;
-            scrollView.contentInset = currentInsets;
-        }
+//        if (scrollView.contentInset.bottom != 0) {
+//            UIEdgeInsets currentInsets = scrollView.contentInset;
+//            currentInsets.bottom = 0;
+//            scrollView.contentInset = currentInsets;
+//        }
     }
 }
 -(void)NAScrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
@@ -132,7 +132,10 @@
         [self setState:NAPullStateLoading];
         [self startAnimatingWithScrollView:scrollView];
     }else{
-        [self setState:NAPullStateNomal];
+        if (_state  !=  NAPullStateLoading) {
+            [self setState:NAPullStateNomal];
+        }
+        
     }
 }
 
