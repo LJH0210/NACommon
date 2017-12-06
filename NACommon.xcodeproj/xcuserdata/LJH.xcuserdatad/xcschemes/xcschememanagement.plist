@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>NACommonTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>365049461FD82F3C001520B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6DE23FEB1C2416EA004AF615</key>
 		<dict>
 			<key>primary</key>
