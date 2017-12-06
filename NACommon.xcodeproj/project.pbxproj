@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3650494A1FD82F3C001520B4 /* NACommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 365049491FD82F3C001520B4 /* NACommonTests.m */; };
 		6885F5F48D043DD8E23BCA04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */; };
-		6DE23FEF1C2416EA004AF615 /* NACommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */; };
 		6DEE24681BFDA10100539365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24671BFDA10100539365 /* main.m */; };
 		6DEE246B1BFDA10100539365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246A1BFDA10100539365 /* AppDelegate.m */; };
 		6DEE246E1BFDA10100539365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246D1BFDA10100539365 /* ViewController.m */; };
@@ -129,7 +129,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6DE23FF11C2416EA004AF615 /* PBXContainerItemProxy */ = {
+		3650494C1FD82F3C001520B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DEE245B1BFDA10100539365 /* Project object */;
 			proxyType = 1;
@@ -140,7 +140,9 @@
 
 /* Begin PBXFileReference section */
 		31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365049471FD82F3C001520B4 /* NACommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		365049491FD82F3C001520B4 /* NACommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonTests.m; sourceTree = "<group>"; };
+		3650494B1FD82F3C001520B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonUITests.m; sourceTree = "<group>"; };
 		6DE23FF01C2416EA004AF615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEE24631BFDA10100539365 /* NACommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NACommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -356,7 +358,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DE23FE91C2416EA004AF615 /* Frameworks */ = {
+		365049441FD82F3C001520B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,6 +384,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		365049481FD82F3C001520B4 /* NACommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				365049491FD82F3C001520B4 /* NACommonTests.m */,
+				3650494B1FD82F3C001520B4 /* Info.plist */,
+			);
+			path = NACommonTests;
+			sourceTree = "<group>";
+		};
 		6DE23FED1C2416EA004AF615 /* NACommonUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +407,7 @@
 			children = (
 				6DEE24651BFDA10100539365 /* NACommon */,
 				6DE23FED1C2416EA004AF615 /* NACommonUITests */,
+				365049481FD82F3C001520B4 /* NACommonTests */,
 				6DEE24641BFDA10100539365 /* Products */,
 				6E4C2877666BCE3D3C2C6C8D /* Pods */,
 				266BB425147009B224B17222 /* Frameworks */,
@@ -406,7 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				6DEE24631BFDA10100539365 /* NACommon.app */,
-				6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */,
+				365049471FD82F3C001520B4 /* NACommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -917,23 +929,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DE23FEB1C2416EA004AF615 /* NACommonTests */ = {
+		365049461FD82F3C001520B4 /* NACommonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonTests" */;
+			buildConfigurationList = 3650494E1FD82F3C001520B4 /* Build configuration list for PBXNativeTarget "NACommonTests" */;
 			buildPhases = (
-				6DE23FE81C2416EA004AF615 /* Sources */,
-				6DE23FE91C2416EA004AF615 /* Frameworks */,
-				6DE23FEA1C2416EA004AF615 /* Resources */,
+				365049431FD82F3C001520B4 /* Sources */,
+				365049441FD82F3C001520B4 /* Frameworks */,
+				365049451FD82F3C001520B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6DE23FF21C2416EA004AF615 /* PBXTargetDependency */,
+				3650494D1FD82F3C001520B4 /* PBXTargetDependency */,
 			);
 			name = NACommonTests;
-			productName = NACommonUITests;
-			productReference = 6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = NACommonTests;
+			productReference = 365049471FD82F3C001520B4 /* NACommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		6DEE24621BFDA10100539365 /* NACommon */ = {
 			isa = PBXNativeTarget;
@@ -964,9 +976,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = LJH;
 				TargetAttributes = {
-					6DE23FEB1C2416EA004AF615 = {
-						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 2H5B82A5NY;
+					365049461FD82F3C001520B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6DEE24621BFDA10100539365;
 					};
 					6DEE24621BFDA10100539365 = {
@@ -989,13 +1001,13 @@
 			projectRoot = "";
 			targets = (
 				6DEE24621BFDA10100539365 /* NACommon */,
-				6DE23FEB1C2416EA004AF615 /* NACommonTests */,
+				365049461FD82F3C001520B4 /* NACommonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6DE23FEA1C2416EA004AF615 /* Resources */ = {
+		365049451FD82F3C001520B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1089,11 +1101,11 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6DE23FE81C2416EA004AF615 /* Sources */ = {
+		365049431FD82F3C001520B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE23FEF1C2416EA004AF615 /* NACommonUITests.m in Sources */,
+				3650494A1FD82F3C001520B4 /* NACommonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1195,10 +1207,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6DE23FF21C2416EA004AF615 /* PBXTargetDependency */ = {
+		3650494D1FD82F3C001520B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6DEE24621BFDA10100539365 /* NACommon */;
-			targetProxy = 6DE23FF11C2416EA004AF615 /* PBXContainerItemProxy */;
+			targetProxy = 3650494C1FD82F3C001520B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1222,29 +1234,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6DE23FF31C2416EA004AF615 /* Debug */ = {
+		3650494F1FD82F3C001520B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = NACommonUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NACommonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommonUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igg.sdkdemo2.NACommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NACommon;
-				USES_XCTRUNNER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NACommon.app/NACommon";
 			};
 			name = Debug;
 		};
-		6DE23FF41C2416EA004AF615 /* Release */ = {
+		365049501FD82F3C001520B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = NACommonUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NACommonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = con.na.NACommonUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igg.sdkdemo2.NACommonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NACommon;
-				USES_XCTRUNNER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NACommon.app/NACommon";
 			};
 			name = Release;
 		};
@@ -1359,11 +1405,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonTests" */ = {
+		3650494E1FD82F3C001520B4 /* Build configuration list for PBXNativeTarget "NACommonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DE23FF31C2416EA004AF615 /* Debug */,
-				6DE23FF41C2416EA004AF615 /* Release */,
+				3650494F1FD82F3C001520B4 /* Debug */,
+				365049501FD82F3C001520B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
