@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3650494A1FD82F3C001520B4 /* NACommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 365049491FD82F3C001520B4 /* NACommonTests.m */; };
-		6885F5F48D043DD8E23BCA04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */; };
 		6DEE24681BFDA10100539365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24671BFDA10100539365 /* main.m */; };
 		6DEE246B1BFDA10100539365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246A1BFDA10100539365 /* AppDelegate.m */; };
-		6DEE246E1BFDA10100539365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE246D1BFDA10100539365 /* ViewController.m */; };
 		6DEE24711BFDA10100539365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE246F1BFDA10100539365 /* Main.storyboard */; };
 		6DEE24731BFDA10100539365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE24721BFDA10100539365 /* Assets.xcassets */; };
 		6DEE24761BFDA10100539365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE24741BFDA10100539365 /* LaunchScreen.storyboard */; };
@@ -31,101 +29,6 @@
 		6DEE25F01BFDA14A00539365 /* NSString+NAFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249A1BFDA14A00539365 /* NSString+NAFoundation.m */; };
 		6DEE25F11BFDA14A00539365 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249C1BFDA14A00539365 /* NSString+URLEncoding.m */; };
 		6DEE25F21BFDA14A00539365 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE249E1BFDA14A00539365 /* UIDevice+Extension.m */; };
-		6DEE25F41BFDA14A00539365 /* NADevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A41BFDA14A00539365 /* NADevice.m */; };
-		6DEE25F51BFDA14A00539365 /* NADateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A71BFDA14A00539365 /* NADateFormatter.m */; };
-		6DEE25F61BFDA14A00539365 /* NAMobileFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24A91BFDA14A00539365 /* NAMobileFormatter.m */; };
-		6DEE25F71BFDA14A00539365 /* NAMoneyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24AB1BFDA14A00539365 /* NAMoneyFormatter.m */; };
-		6DEE25F81BFDA14A00539365 /* NASizeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24AD1BFDA14A00539365 /* NASizeFormatter.m */; };
-		6DEE25F91BFDA14A00539365 /* NAAFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24B01BFDA14A00539365 /* NAAFHttpRequest.m */; };
-		6DEE25FA1BFDA14A00539365 /* NAAFHttpTranscations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24B21BFDA14A00539365 /* NAAFHttpTranscations.m */; };
-		6DEE25FB1BFDA14A00539365 /* NAASIHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24B41BFDA14A00539365 /* NAASIHttpRequest.m */; };
-		6DEE25FC1BFDA14A00539365 /* NAASIHttpTranscations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24B61BFDA14A00539365 /* NAASIHttpTranscations.m */; };
-		6DEE25FD1BFDA14A00539365 /* NAHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24B81BFDA14A00539365 /* NAHttpRequest.m */; };
-		6DEE25FE1BFDA14A00539365 /* NAHttpRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24BA1BFDA14A00539365 /* NAHttpRequestConfig.m */; };
-		6DEE25FF1BFDA14A00539365 /* NAHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24BC1BFDA14A00539365 /* NAHttpRequestManager.m */; };
-		6DEE26001BFDA14A00539365 /* NAHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24BE1BFDA14A00539365 /* NAHttpResponse.m */; };
-		6DEE26011BFDA14A00539365 /* NAHttpTranscations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24C01BFDA14A00539365 /* NAHttpTranscations.m */; };
-		6DEE26021BFDA14A00539365 /* NADBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24C31BFDA14A00539365 /* NADBase.m */; };
-		6DEE26031BFDA14A00539365 /* NADBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24C51BFDA14A00539365 /* NADBuffer.m */; };
-		6DEE26041BFDA14A00539365 /* NACommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24C71BFDA14A00539365 /* NACommonDefine.m */; };
-		6DEE26051BFDA14A00539365 /* NADataSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24C91BFDA14A00539365 /* NADataSecurity.m */; };
-		6DEE26061BFDA14A00539365 /* NALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24CB1BFDA14A00539365 /* NALog.m */; };
-		6DEE26071BFDA14A00539365 /* NADataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24CE1BFDA14A00539365 /* NADataSerializer.m */; };
-		6DEE26081BFDA14A00539365 /* NATouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24D31BFDA14A00539365 /* NATouchID.m */; };
-		6DEE26091BFDA14A00539365 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24D51BFDA14A00539365 /* UIButton+Extension.m */; };
-		6DEE260A1BFDA14A00539365 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24D71BFDA14A00539365 /* UIColor+Extension.m */; };
-		6DEE260B1BFDA14A00539365 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24D91BFDA14A00539365 /* UIImage+Extension.m */; };
-		6DEE260C1BFDA14A00539365 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24DB1BFDA14A00539365 /* UIImageView+Extension.m */; };
-		6DEE260D1BFDA14A00539365 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24DD1BFDA14A00539365 /* UILabel+Extension.m */; };
-		6DEE260E1BFDA14A00539365 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24DF1BFDA14A00539365 /* UITextField+Extension.m */; };
-		6DEE260F1BFDA14A00539365 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE24E11BFDA14A00539365 /* UIView+Extension.m */; };
-		6DEE26501BFDA14A00539365 /* NAAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE255D1BFDA14A00539365 /* NAAlertView.m */; };
-		6DEE26511BFDA14A00539365 /* NADatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE255F1BFDA14A00539365 /* NADatePicker.m */; };
-		6DEE26521BFDA14A00539365 /* NAImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25611BFDA14A00539365 /* NAImagePickerView.m */; };
-		6DEE26531BFDA14A00539365 /* NAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25631BFDA14A00539365 /* NAPickerView.m */; };
-		6DEE26541BFDA14A00539365 /* NASegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25651BFDA14A00539365 /* NASegmentedControl.m */; };
-		6DEE26551BFDA14A00539365 /* NATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25671BFDA14A00539365 /* NATableView.m */; };
-		6DEE26561BFDA14A00539365 /* NATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25691BFDA14A00539365 /* NATextField.m */; };
-		6DEE26571BFDA14A00539365 /* NATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE256B1BFDA14A00539365 /* NATextView.m */; };
-		6DEE26581BFDA14A00539365 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE256F1BFDA14A00539365 /* HMSegmentedControl.m */; };
-		6DEE265A1BFDA14A00539365 /* NACommonCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25741BFDA14A00539365 /* NACommonCollectionReusableView.m */; };
-		6DEE265B1BFDA14A00539365 /* NACommonCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25751BFDA14A00539365 /* NACommonCollectionReusableView.xib */; };
-		6DEE265C1BFDA14A00539365 /* NACommonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25771BFDA14A00539365 /* NACommonCollectionViewCell.m */; };
-		6DEE265D1BFDA14A00539365 /* NAEmptyBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25791BFDA14A00539365 /* NAEmptyBackgroundView.m */; };
-		6DEE265E1BFDA14A00539365 /* NAMessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE257B1BFDA14A00539365 /* NAMessageInterceptor.m */; };
-		6DEE265F1BFDA14A00539365 /* NARefreshLoadCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE257D1BFDA14A00539365 /* NARefreshLoadCollectionView.m */; };
-		6DEE26601BFDA14A00539365 /* NARefreshLoadFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE257F1BFDA14A00539365 /* NARefreshLoadFooterView.m */; };
-		6DEE26611BFDA14A00539365 /* NARefreshLoadHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25811BFDA14A00539365 /* NARefreshLoadHeaderView.m */; };
-		6DEE26621BFDA14A00539365 /* NARefreshLoadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25831BFDA14A00539365 /* NARefreshLoadTableView.m */; };
-		6DEE26631BFDA14A00539365 /* 自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25841BFDA14A00539365 /* 自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView */; };
-		6DEE26641BFDA14A00539365 /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25871BFDA14A00539365 /* cb_box_off.png */; };
-		6DEE26651BFDA14A00539365 /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25881BFDA14A00539365 /* cb_box_off@2x.png */; };
-		6DEE26661BFDA14A00539365 /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25891BFDA14A00539365 /* cb_box_on.png */; };
-		6DEE26671BFDA14A00539365 /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258A1BFDA14A00539365 /* cb_box_on@2x.png */; };
-		6DEE26681BFDA14A00539365 /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258B1BFDA14A00539365 /* cb_dark_off.png */; };
-		6DEE26691BFDA14A00539365 /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258C1BFDA14A00539365 /* cb_dark_off@2x.png */; };
-		6DEE266A1BFDA14A00539365 /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258D1BFDA14A00539365 /* cb_dark_on.png */; };
-		6DEE266B1BFDA14A00539365 /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258E1BFDA14A00539365 /* cb_dark_on@2x.png */; };
-		6DEE266C1BFDA14A00539365 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE258F1BFDA14A00539365 /* cb_glossy_off.png */; };
-		6DEE266D1BFDA14A00539365 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25901BFDA14A00539365 /* cb_glossy_off@2x.png */; };
-		6DEE266E1BFDA14A00539365 /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25911BFDA14A00539365 /* cb_glossy_on.png */; };
-		6DEE266F1BFDA14A00539365 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25921BFDA14A00539365 /* cb_glossy_on@2x.png */; };
-		6DEE26701BFDA14A00539365 /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25931BFDA14A00539365 /* cb_green_off.png */; };
-		6DEE26711BFDA14A00539365 /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25941BFDA14A00539365 /* cb_green_off@2x.png */; };
-		6DEE26721BFDA14A00539365 /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25951BFDA14A00539365 /* cb_green_on.png */; };
-		6DEE26731BFDA14A00539365 /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25961BFDA14A00539365 /* cb_green_on@2x.png */; };
-		6DEE26741BFDA14A00539365 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25971BFDA14A00539365 /* cb_mono_off.png */; };
-		6DEE26751BFDA14A00539365 /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25981BFDA14A00539365 /* cb_mono_off@2x.png */; };
-		6DEE26761BFDA14A00539365 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25991BFDA14A00539365 /* cb_mono_on.png */; };
-		6DEE26771BFDA14A00539365 /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE259A1BFDA14A00539365 /* cb_mono_on@2x.png */; };
-		6DEE26781BFDA14A00539365 /* NACheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE259C1BFDA14A00539365 /* NACheckBoxView.m */; };
-		6DEE26791BFDA14A00539365 /* NACountInternalTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE259F1BFDA14A00539365 /* NACountInternalTextView.m */; };
-		6DEE267A1BFDA14A00539365 /* NACountTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25A11BFDA14A00539365 /* NACountTextView.m */; };
-		6DEE267B1BFDA14A00539365 /* NAFocalPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25A41BFDA14A00539365 /* NAFocalPointView.m */; };
-		6DEE267C1BFDA14A00539365 /* NAFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25A61BFDA14A00539365 /* NAFocusView.m */; };
-		6DEE267D1BFDA14A00539365 /* NASpotlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25A81BFDA14A00539365 /* NASpotlightView.m */; };
-		6DEE267E1BFDA14A00539365 /* NASqureFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25AA1BFDA14A00539365 /* NASqureFocusView.m */; };
-		6DEE267F1BFDA14A00539365 /* icx_appraise_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25AC1BFDA14A00539365 /* icx_appraise_delete.png */; };
-		6DEE26801BFDA14A00539365 /* icx_appraise_upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25AD1BFDA14A00539365 /* icx_appraise_upload.png */; };
-		6DEE26811BFDA14A00539365 /* icx_appraise_upload2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25AE1BFDA14A00539365 /* icx_appraise_upload2.png */; };
-		6DEE26821BFDA14A00539365 /* NACameraPictureUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25B01BFDA14A00539365 /* NACameraPictureUtil.m */; };
-		6DEE26831BFDA14A00539365 /* NAImgPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25B21BFDA14A00539365 /* NAImgPickerCell.m */; };
-		6DEE26841BFDA14A00539365 /* NAImgPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DEE25B31BFDA14A00539365 /* NAImgPickerCell.xib */; };
-		6DEE26851BFDA14A00539365 /* NAImgPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25B51BFDA14A00539365 /* NAImgPickerView.m */; };
-		6DEE26861BFDA14A00539365 /* UIAlertView+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25B81BFDA14A00539365 /* UIAlertView+Input.m */; };
-		6DEE26871BFDA14A00539365 /* NAInvalidAfterClickedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25BB1BFDA14A00539365 /* NAInvalidAfterClickedButton.m */; };
-		6DEE26881BFDA14A00539365 /* NAMobileTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25BE1BFDA14A00539365 /* NAMobileTextField.m */; };
-		6DEE268A1BFDA14A00539365 /* NANumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25C41BFDA14A00539365 /* NANumberTextField.m */; };
-		6DEE268B1BFDA14A00539365 /* NAPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25C71BFDA14A00539365 /* NAPathButton.m */; };
-		6DEE268C1BFDA14A00539365 /* NAPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25CA1BFDA14A00539365 /* NAPhotoBrowser.m */; };
-		6DEE268D1BFDA14A00539365 /* NADatePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25CD1BFDA14A00539365 /* NADatePickerMenu.m */; };
-		6DEE268E1BFDA14A00539365 /* NAPickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25CF1BFDA14A00539365 /* NAPickerMenu.m */; };
-		6DEE268F1BFDA14A00539365 /* NAPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25D11BFDA14A00539365 /* NAPickerModel.m */; };
-		6DEE26901BFDA14A00539365 /* NAProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25D41BFDA14A00539365 /* NAProgress.m */; };
-		6DEE26911BFDA14A00539365 /* NARequiredTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25D71BFDA14A00539365 /* NARequiredTitleLabel.m */; };
-		6DEE26921BFDA14A00539365 /* NAHostManualConfigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25DA1BFDA14A00539365 /* NAHostManualConfigVC.m */; };
-		6DEE26941BFDA14A00539365 /* UIViewController+UIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE25DE1BFDA14A00539365 /* UIViewController+UIExtension.m */; };
-		6DEE269C1BFDD2B100539365 /* NAHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE269B1BFDD2B100539365 /* NAHostConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,18 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141A74D601DA86B208470216 /* Pods-NACommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NACommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NACommon/Pods-NACommon.debug.xcconfig"; sourceTree = "<group>"; };
 		31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		365049471FD82F3C001520B4 /* NACommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		365049491FD82F3C001520B4 /* NACommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonTests.m; sourceTree = "<group>"; };
 		3650494B1FD82F3C001520B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5046B814ABA19A93F041AC39 /* Pods-NACommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NACommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-NACommon/Pods-NACommon.release.xcconfig"; sourceTree = "<group>"; };
 		6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonUITests.m; sourceTree = "<group>"; };
 		6DE23FF01C2416EA004AF615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEE24631BFDA10100539365 /* NACommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NACommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEE24671BFDA10100539365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DEE24691BFDA10100539365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DEE246A1BFDA10100539365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DEE246C1BFDA10100539365 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DEE246D1BFDA10100539365 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DEE24701BFDA10100539365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DEE24721BFDA10100539365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DEE24751BFDA10100539365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -187,172 +90,8 @@
 		6DEE249C1BFDA14A00539365 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		6DEE249D1BFDA14A00539365 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
 		6DEE249E1BFDA14A00539365 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
-		6DEE24A31BFDA14A00539365 /* NADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADevice.h; sourceTree = "<group>"; };
-		6DEE24A41BFDA14A00539365 /* NADevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADevice.m; sourceTree = "<group>"; };
-		6DEE24A61BFDA14A00539365 /* NADateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADateFormatter.h; sourceTree = "<group>"; };
-		6DEE24A71BFDA14A00539365 /* NADateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADateFormatter.m; sourceTree = "<group>"; };
-		6DEE24A81BFDA14A00539365 /* NAMobileFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMobileFormatter.h; sourceTree = "<group>"; };
-		6DEE24A91BFDA14A00539365 /* NAMobileFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMobileFormatter.m; sourceTree = "<group>"; };
-		6DEE24AA1BFDA14A00539365 /* NAMoneyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMoneyFormatter.h; sourceTree = "<group>"; };
-		6DEE24AB1BFDA14A00539365 /* NAMoneyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMoneyFormatter.m; sourceTree = "<group>"; };
-		6DEE24AC1BFDA14A00539365 /* NASizeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASizeFormatter.h; sourceTree = "<group>"; };
-		6DEE24AD1BFDA14A00539365 /* NASizeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASizeFormatter.m; sourceTree = "<group>"; };
-		6DEE24AF1BFDA14A00539365 /* NAAFHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAAFHttpRequest.h; sourceTree = "<group>"; };
-		6DEE24B01BFDA14A00539365 /* NAAFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAAFHttpRequest.m; sourceTree = "<group>"; };
-		6DEE24B11BFDA14A00539365 /* NAAFHttpTranscations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAAFHttpTranscations.h; sourceTree = "<group>"; };
-		6DEE24B21BFDA14A00539365 /* NAAFHttpTranscations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAAFHttpTranscations.m; sourceTree = "<group>"; };
-		6DEE24B31BFDA14A00539365 /* NAASIHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAASIHttpRequest.h; sourceTree = "<group>"; };
-		6DEE24B41BFDA14A00539365 /* NAASIHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAASIHttpRequest.m; sourceTree = "<group>"; };
-		6DEE24B51BFDA14A00539365 /* NAASIHttpTranscations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAASIHttpTranscations.h; sourceTree = "<group>"; };
-		6DEE24B61BFDA14A00539365 /* NAASIHttpTranscations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAASIHttpTranscations.m; sourceTree = "<group>"; };
-		6DEE24B71BFDA14A00539365 /* NAHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHttpRequest.h; sourceTree = "<group>"; };
-		6DEE24B81BFDA14A00539365 /* NAHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHttpRequest.m; sourceTree = "<group>"; };
-		6DEE24B91BFDA14A00539365 /* NAHttpRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHttpRequestConfig.h; sourceTree = "<group>"; };
-		6DEE24BA1BFDA14A00539365 /* NAHttpRequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHttpRequestConfig.m; sourceTree = "<group>"; };
-		6DEE24BB1BFDA14A00539365 /* NAHttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHttpRequestManager.h; sourceTree = "<group>"; };
-		6DEE24BC1BFDA14A00539365 /* NAHttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHttpRequestManager.m; sourceTree = "<group>"; };
-		6DEE24BD1BFDA14A00539365 /* NAHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHttpResponse.h; sourceTree = "<group>"; };
-		6DEE24BE1BFDA14A00539365 /* NAHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHttpResponse.m; sourceTree = "<group>"; };
-		6DEE24BF1BFDA14A00539365 /* NAHttpTranscations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHttpTranscations.h; sourceTree = "<group>"; };
-		6DEE24C01BFDA14A00539365 /* NAHttpTranscations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHttpTranscations.m; sourceTree = "<group>"; };
-		6DEE24C21BFDA14A00539365 /* NADBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADBase.h; sourceTree = "<group>"; };
-		6DEE24C31BFDA14A00539365 /* NADBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADBase.m; sourceTree = "<group>"; };
-		6DEE24C41BFDA14A00539365 /* NADBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADBuffer.h; sourceTree = "<group>"; };
-		6DEE24C51BFDA14A00539365 /* NADBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADBuffer.m; sourceTree = "<group>"; };
-		6DEE24C61BFDA14A00539365 /* NACommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACommonDefine.h; sourceTree = "<group>"; };
-		6DEE24C71BFDA14A00539365 /* NACommonDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACommonDefine.m; sourceTree = "<group>"; };
-		6DEE24C81BFDA14A00539365 /* NADataSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADataSecurity.h; sourceTree = "<group>"; };
-		6DEE24C91BFDA14A00539365 /* NADataSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADataSecurity.m; sourceTree = "<group>"; };
-		6DEE24CA1BFDA14A00539365 /* NALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALog.h; sourceTree = "<group>"; };
-		6DEE24CB1BFDA14A00539365 /* NALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NALog.m; sourceTree = "<group>"; };
-		6DEE24CD1BFDA14A00539365 /* NADataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADataSerializer.h; sourceTree = "<group>"; };
-		6DEE24CE1BFDA14A00539365 /* NADataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADataSerializer.m; sourceTree = "<group>"; };
-		6DEE24D21BFDA14A00539365 /* NATouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATouchID.h; sourceTree = "<group>"; };
-		6DEE24D31BFDA14A00539365 /* NATouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATouchID.m; sourceTree = "<group>"; };
-		6DEE24D41BFDA14A00539365 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
-		6DEE24D51BFDA14A00539365 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
-		6DEE24D61BFDA14A00539365 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		6DEE24D71BFDA14A00539365 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
-		6DEE24D81BFDA14A00539365 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		6DEE24D91BFDA14A00539365 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		6DEE24DA1BFDA14A00539365 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
-		6DEE24DB1BFDA14A00539365 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
-		6DEE24DC1BFDA14A00539365 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
-		6DEE24DD1BFDA14A00539365 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
-		6DEE24DE1BFDA14A00539365 /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
-		6DEE24DF1BFDA14A00539365 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
-		6DEE24E01BFDA14A00539365 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		6DEE24E11BFDA14A00539365 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		6DEE255C1BFDA14A00539365 /* NAAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAAlertView.h; sourceTree = "<group>"; };
-		6DEE255D1BFDA14A00539365 /* NAAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAAlertView.m; sourceTree = "<group>"; };
-		6DEE255E1BFDA14A00539365 /* NADatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADatePicker.h; sourceTree = "<group>"; };
-		6DEE255F1BFDA14A00539365 /* NADatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADatePicker.m; sourceTree = "<group>"; };
-		6DEE25601BFDA14A00539365 /* NAImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAImagePickerView.h; sourceTree = "<group>"; };
-		6DEE25611BFDA14A00539365 /* NAImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAImagePickerView.m; sourceTree = "<group>"; };
-		6DEE25621BFDA14A00539365 /* NAPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPickerView.h; sourceTree = "<group>"; };
-		6DEE25631BFDA14A00539365 /* NAPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPickerView.m; sourceTree = "<group>"; };
-		6DEE25641BFDA14A00539365 /* NASegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASegmentedControl.h; sourceTree = "<group>"; };
-		6DEE25651BFDA14A00539365 /* NASegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASegmentedControl.m; sourceTree = "<group>"; };
-		6DEE25661BFDA14A00539365 /* NATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATableView.h; sourceTree = "<group>"; };
-		6DEE25671BFDA14A00539365 /* NATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATableView.m; sourceTree = "<group>"; };
-		6DEE25681BFDA14A00539365 /* NATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATextField.h; sourceTree = "<group>"; };
-		6DEE25691BFDA14A00539365 /* NATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATextField.m; sourceTree = "<group>"; };
-		6DEE256A1BFDA14A00539365 /* NATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATextView.h; sourceTree = "<group>"; };
-		6DEE256B1BFDA14A00539365 /* NATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATextView.m; sourceTree = "<group>"; };
-		6DEE256E1BFDA14A00539365 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
-		6DEE256F1BFDA14A00539365 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
-		6DEE25731BFDA14A00539365 /* NACommonCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACommonCollectionReusableView.h; sourceTree = "<group>"; };
-		6DEE25741BFDA14A00539365 /* NACommonCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACommonCollectionReusableView.m; sourceTree = "<group>"; };
-		6DEE25751BFDA14A00539365 /* NACommonCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NACommonCollectionReusableView.xib; sourceTree = "<group>"; };
-		6DEE25761BFDA14A00539365 /* NACommonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACommonCollectionViewCell.h; sourceTree = "<group>"; };
-		6DEE25771BFDA14A00539365 /* NACommonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACommonCollectionViewCell.m; sourceTree = "<group>"; };
-		6DEE25781BFDA14A00539365 /* NAEmptyBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAEmptyBackgroundView.h; sourceTree = "<group>"; };
-		6DEE25791BFDA14A00539365 /* NAEmptyBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAEmptyBackgroundView.m; sourceTree = "<group>"; };
-		6DEE257A1BFDA14A00539365 /* NAMessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMessageInterceptor.h; sourceTree = "<group>"; };
-		6DEE257B1BFDA14A00539365 /* NAMessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMessageInterceptor.m; sourceTree = "<group>"; };
-		6DEE257C1BFDA14A00539365 /* NARefreshLoadCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARefreshLoadCollectionView.h; sourceTree = "<group>"; };
-		6DEE257D1BFDA14A00539365 /* NARefreshLoadCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NARefreshLoadCollectionView.m; sourceTree = "<group>"; };
-		6DEE257E1BFDA14A00539365 /* NARefreshLoadFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARefreshLoadFooterView.h; sourceTree = "<group>"; };
-		6DEE257F1BFDA14A00539365 /* NARefreshLoadFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NARefreshLoadFooterView.m; sourceTree = "<group>"; };
-		6DEE25801BFDA14A00539365 /* NARefreshLoadHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARefreshLoadHeaderView.h; sourceTree = "<group>"; };
-		6DEE25811BFDA14A00539365 /* NARefreshLoadHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NARefreshLoadHeaderView.m; sourceTree = "<group>"; };
-		6DEE25821BFDA14A00539365 /* NARefreshLoadTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARefreshLoadTableView.h; sourceTree = "<group>"; };
-		6DEE25831BFDA14A00539365 /* NARefreshLoadTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NARefreshLoadTableView.m; sourceTree = "<group>"; };
-		6DEE25841BFDA14A00539365 /* 自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView"; sourceTree = "<group>"; };
-		6DEE25871BFDA14A00539365 /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
-		6DEE25881BFDA14A00539365 /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
-		6DEE25891BFDA14A00539365 /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
-		6DEE258A1BFDA14A00539365 /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
-		6DEE258B1BFDA14A00539365 /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
-		6DEE258C1BFDA14A00539365 /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
-		6DEE258D1BFDA14A00539365 /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
-		6DEE258E1BFDA14A00539365 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
-		6DEE258F1BFDA14A00539365 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
-		6DEE25901BFDA14A00539365 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
-		6DEE25911BFDA14A00539365 /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
-		6DEE25921BFDA14A00539365 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
-		6DEE25931BFDA14A00539365 /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
-		6DEE25941BFDA14A00539365 /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
-		6DEE25951BFDA14A00539365 /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
-		6DEE25961BFDA14A00539365 /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
-		6DEE25971BFDA14A00539365 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
-		6DEE25981BFDA14A00539365 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
-		6DEE25991BFDA14A00539365 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
-		6DEE259A1BFDA14A00539365 /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
-		6DEE259B1BFDA14A00539365 /* NACheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACheckBoxView.h; sourceTree = "<group>"; };
-		6DEE259C1BFDA14A00539365 /* NACheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACheckBoxView.m; sourceTree = "<group>"; };
-		6DEE259E1BFDA14A00539365 /* NACountInternalTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACountInternalTextView.h; sourceTree = "<group>"; };
-		6DEE259F1BFDA14A00539365 /* NACountInternalTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACountInternalTextView.m; sourceTree = "<group>"; };
-		6DEE25A01BFDA14A00539365 /* NACountTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACountTextView.h; sourceTree = "<group>"; };
-		6DEE25A11BFDA14A00539365 /* NACountTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACountTextView.m; sourceTree = "<group>"; };
-		6DEE25A31BFDA14A00539365 /* NAFocalPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAFocalPointView.h; sourceTree = "<group>"; };
-		6DEE25A41BFDA14A00539365 /* NAFocalPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAFocalPointView.m; sourceTree = "<group>"; };
-		6DEE25A51BFDA14A00539365 /* NAFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAFocusView.h; sourceTree = "<group>"; };
-		6DEE25A61BFDA14A00539365 /* NAFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAFocusView.m; sourceTree = "<group>"; };
-		6DEE25A71BFDA14A00539365 /* NASpotlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASpotlightView.h; sourceTree = "<group>"; };
-		6DEE25A81BFDA14A00539365 /* NASpotlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASpotlightView.m; sourceTree = "<group>"; };
-		6DEE25A91BFDA14A00539365 /* NASqureFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASqureFocusView.h; sourceTree = "<group>"; };
-		6DEE25AA1BFDA14A00539365 /* NASqureFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASqureFocusView.m; sourceTree = "<group>"; };
-		6DEE25AC1BFDA14A00539365 /* icx_appraise_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icx_appraise_delete.png; sourceTree = "<group>"; };
-		6DEE25AD1BFDA14A00539365 /* icx_appraise_upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icx_appraise_upload.png; sourceTree = "<group>"; };
-		6DEE25AE1BFDA14A00539365 /* icx_appraise_upload2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icx_appraise_upload2.png; sourceTree = "<group>"; };
-		6DEE25AF1BFDA14A00539365 /* NACameraPictureUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NACameraPictureUtil.h; sourceTree = "<group>"; };
-		6DEE25B01BFDA14A00539365 /* NACameraPictureUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NACameraPictureUtil.m; sourceTree = "<group>"; };
-		6DEE25B11BFDA14A00539365 /* NAImgPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAImgPickerCell.h; sourceTree = "<group>"; };
-		6DEE25B21BFDA14A00539365 /* NAImgPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAImgPickerCell.m; sourceTree = "<group>"; };
-		6DEE25B31BFDA14A00539365 /* NAImgPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NAImgPickerCell.xib; sourceTree = "<group>"; };
-		6DEE25B41BFDA14A00539365 /* NAImgPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAImgPickerView.h; sourceTree = "<group>"; };
-		6DEE25B51BFDA14A00539365 /* NAImgPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAImgPickerView.m; sourceTree = "<group>"; };
-		6DEE25B71BFDA14A00539365 /* UIAlertView+Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Input.h"; sourceTree = "<group>"; };
-		6DEE25B81BFDA14A00539365 /* UIAlertView+Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Input.m"; sourceTree = "<group>"; };
-		6DEE25BA1BFDA14A00539365 /* NAInvalidAfterClickedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAInvalidAfterClickedButton.h; sourceTree = "<group>"; };
-		6DEE25BB1BFDA14A00539365 /* NAInvalidAfterClickedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAInvalidAfterClickedButton.m; sourceTree = "<group>"; };
-		6DEE25BD1BFDA14A00539365 /* NAMobileTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMobileTextField.h; sourceTree = "<group>"; };
-		6DEE25BE1BFDA14A00539365 /* NAMobileTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMobileTextField.m; sourceTree = "<group>"; };
-		6DEE25C31BFDA14A00539365 /* NANumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NANumberTextField.h; sourceTree = "<group>"; };
-		6DEE25C41BFDA14A00539365 /* NANumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NANumberTextField.m; sourceTree = "<group>"; };
-		6DEE25C61BFDA14A00539365 /* NAPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPathButton.h; sourceTree = "<group>"; };
-		6DEE25C71BFDA14A00539365 /* NAPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPathButton.m; sourceTree = "<group>"; };
-		6DEE25C91BFDA14A00539365 /* NAPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPhotoBrowser.h; sourceTree = "<group>"; };
-		6DEE25CA1BFDA14A00539365 /* NAPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPhotoBrowser.m; sourceTree = "<group>"; };
-		6DEE25CC1BFDA14A00539365 /* NADatePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADatePickerMenu.h; sourceTree = "<group>"; };
-		6DEE25CD1BFDA14A00539365 /* NADatePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NADatePickerMenu.m; sourceTree = "<group>"; };
-		6DEE25CE1BFDA14A00539365 /* NAPickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPickerMenu.h; sourceTree = "<group>"; };
-		6DEE25CF1BFDA14A00539365 /* NAPickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPickerMenu.m; sourceTree = "<group>"; };
-		6DEE25D01BFDA14A00539365 /* NAPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPickerModel.h; sourceTree = "<group>"; };
-		6DEE25D11BFDA14A00539365 /* NAPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPickerModel.m; sourceTree = "<group>"; };
-		6DEE25D31BFDA14A00539365 /* NAProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAProgress.h; sourceTree = "<group>"; };
-		6DEE25D41BFDA14A00539365 /* NAProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAProgress.m; sourceTree = "<group>"; };
-		6DEE25D61BFDA14A00539365 /* NARequiredTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARequiredTitleLabel.h; sourceTree = "<group>"; };
-		6DEE25D71BFDA14A00539365 /* NARequiredTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NARequiredTitleLabel.m; sourceTree = "<group>"; };
-		6DEE25D91BFDA14A00539365 /* NAHostManualConfigVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHostManualConfigVC.h; sourceTree = "<group>"; };
-		6DEE25DA1BFDA14A00539365 /* NAHostManualConfigVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHostManualConfigVC.m; sourceTree = "<group>"; };
-		6DEE25DD1BFDA14A00539365 /* UIViewController+UIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIExtension.h"; sourceTree = "<group>"; };
-		6DEE25DE1BFDA14A00539365 /* UIViewController+UIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIExtension.m"; sourceTree = "<group>"; };
-		6DEE25DF1BFDA14A00539365 /* NAUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIKit.h; sourceTree = "<group>"; };
-		6DEE269A1BFDD2B100539365 /* NAHostConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAHostConfig.h; sourceTree = "<group>"; };
-		6DEE269B1BFDD2B100539365 /* NAHostConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAHostConfig.m; sourceTree = "<group>"; };
 		6DEE269E1BFDD90B00539365 /* nacommon.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nacommon.pch; sourceTree = "<group>"; };
+		7EAE4E6578F37F6AD3378337 /* libPods-NACommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NACommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9915578246E021A713BEEC45 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -369,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6885F5F48D043DD8E23BCA04 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				EADB14CA8F6AF2A3C0B3AF8B /* libPods.a */,
+				7EAE4E6578F37F6AD3378337 /* libPods-NACommon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -429,8 +168,6 @@
 				6DEE247D1BFDA14A00539365 /* NACommonFoundation */,
 				6DEE24691BFDA10100539365 /* AppDelegate.h */,
 				6DEE246A1BFDA10100539365 /* AppDelegate.m */,
-				6DEE246C1BFDA10100539365 /* ViewController.h */,
-				6DEE246D1BFDA10100539365 /* ViewController.m */,
 				6DEE246F1BFDA10100539365 /* Main.storyboard */,
 				6DEE24721BFDA10100539365 /* Assets.xcassets */,
 				6DEE24741BFDA10100539365 /* LaunchScreen.storyboard */,
@@ -453,8 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				6DEE247E1BFDA14A00539365 /* Foundation */,
-				6DEE24A11BFDA14A00539365 /* persistence */,
-				6DEE24CF1BFDA14A00539365 /* presentation */,
 			);
 			path = NACommonFoundation;
 			sourceTree = "<group>";
@@ -498,430 +233,13 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		6DEE24A11BFDA14A00539365 /* persistence */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24A21BFDA14A00539365 /* device */,
-				6DEE24A51BFDA14A00539365 /* formater */,
-				6DEE24AE1BFDA14A00539365 /* http */,
-				6DEE24C11BFDA14A00539365 /* model */,
-				6DEE24C61BFDA14A00539365 /* NACommonDefine.h */,
-				6DEE24C71BFDA14A00539365 /* NACommonDefine.m */,
-				6DEE24C81BFDA14A00539365 /* NADataSecurity.h */,
-				6DEE24C91BFDA14A00539365 /* NADataSecurity.m */,
-				6DEE24CA1BFDA14A00539365 /* NALog.h */,
-				6DEE24CB1BFDA14A00539365 /* NALog.m */,
-				6DEE24CC1BFDA14A00539365 /* serializer */,
-			);
-			path = persistence;
-			sourceTree = "<group>";
-		};
-		6DEE24A21BFDA14A00539365 /* device */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24A31BFDA14A00539365 /* NADevice.h */,
-				6DEE24A41BFDA14A00539365 /* NADevice.m */,
-			);
-			path = device;
-			sourceTree = "<group>";
-		};
-		6DEE24A51BFDA14A00539365 /* formater */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24A61BFDA14A00539365 /* NADateFormatter.h */,
-				6DEE24A71BFDA14A00539365 /* NADateFormatter.m */,
-				6DEE24A81BFDA14A00539365 /* NAMobileFormatter.h */,
-				6DEE24A91BFDA14A00539365 /* NAMobileFormatter.m */,
-				6DEE24AA1BFDA14A00539365 /* NAMoneyFormatter.h */,
-				6DEE24AB1BFDA14A00539365 /* NAMoneyFormatter.m */,
-				6DEE24AC1BFDA14A00539365 /* NASizeFormatter.h */,
-				6DEE24AD1BFDA14A00539365 /* NASizeFormatter.m */,
-			);
-			path = formater;
-			sourceTree = "<group>";
-		};
-		6DEE24AE1BFDA14A00539365 /* http */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE269A1BFDD2B100539365 /* NAHostConfig.h */,
-				6DEE269B1BFDD2B100539365 /* NAHostConfig.m */,
-				6DEE24B91BFDA14A00539365 /* NAHttpRequestConfig.h */,
-				6DEE24BA1BFDA14A00539365 /* NAHttpRequestConfig.m */,
-				6DEE24B11BFDA14A00539365 /* NAAFHttpTranscations.h */,
-				6DEE24B21BFDA14A00539365 /* NAAFHttpTranscations.m */,
-				6DEE24B51BFDA14A00539365 /* NAASIHttpTranscations.h */,
-				6DEE24B61BFDA14A00539365 /* NAASIHttpTranscations.m */,
-				6DEE26971BFDD21300539365 /* core */,
-			);
-			path = http;
-			sourceTree = "<group>";
-		};
-		6DEE24C11BFDA14A00539365 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24C21BFDA14A00539365 /* NADBase.h */,
-				6DEE24C31BFDA14A00539365 /* NADBase.m */,
-				6DEE24C41BFDA14A00539365 /* NADBuffer.h */,
-				6DEE24C51BFDA14A00539365 /* NADBuffer.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		6DEE24CC1BFDA14A00539365 /* serializer */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24CD1BFDA14A00539365 /* NADataSerializer.h */,
-				6DEE24CE1BFDA14A00539365 /* NADataSerializer.m */,
-			);
-			path = serializer;
-			sourceTree = "<group>";
-		};
-		6DEE24CF1BFDA14A00539365 /* presentation */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24D01BFDA14A00539365 /* basic */,
-				6DEE255A1BFDA14A00539365 /* extend */,
-				6DEE25DF1BFDA14A00539365 /* NAUIKit.h */,
-			);
-			path = presentation;
-			sourceTree = "<group>";
-		};
-		6DEE24D01BFDA14A00539365 /* basic */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24D11BFDA14A00539365 /* Extension */,
-			);
-			path = basic;
-			sourceTree = "<group>";
-		};
-		6DEE24D11BFDA14A00539365 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24D21BFDA14A00539365 /* NATouchID.h */,
-				6DEE24D31BFDA14A00539365 /* NATouchID.m */,
-				6DEE24D41BFDA14A00539365 /* UIButton+Extension.h */,
-				6DEE24D51BFDA14A00539365 /* UIButton+Extension.m */,
-				6DEE24D61BFDA14A00539365 /* UIColor+Extension.h */,
-				6DEE24D71BFDA14A00539365 /* UIColor+Extension.m */,
-				6DEE24D81BFDA14A00539365 /* UIImage+Extension.h */,
-				6DEE24D91BFDA14A00539365 /* UIImage+Extension.m */,
-				6DEE24DA1BFDA14A00539365 /* UIImageView+Extension.h */,
-				6DEE24DB1BFDA14A00539365 /* UIImageView+Extension.m */,
-				6DEE24DC1BFDA14A00539365 /* UILabel+Extension.h */,
-				6DEE24DD1BFDA14A00539365 /* UILabel+Extension.m */,
-				6DEE24DE1BFDA14A00539365 /* UITextField+Extension.h */,
-				6DEE24DF1BFDA14A00539365 /* UITextField+Extension.m */,
-				6DEE24E01BFDA14A00539365 /* UIView+Extension.h */,
-				6DEE24E11BFDA14A00539365 /* UIView+Extension.m */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		6DEE255A1BFDA14A00539365 /* extend */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE255B1BFDA14A00539365 /* view */,
-				6DEE25D81BFDA14A00539365 /* viewc */,
-			);
-			path = extend;
-			sourceTree = "<group>";
-		};
-		6DEE255B1BFDA14A00539365 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE255C1BFDA14A00539365 /* NAAlertView.h */,
-				6DEE255D1BFDA14A00539365 /* NAAlertView.m */,
-				6DEE255E1BFDA14A00539365 /* NADatePicker.h */,
-				6DEE255F1BFDA14A00539365 /* NADatePicker.m */,
-				6DEE25601BFDA14A00539365 /* NAImagePickerView.h */,
-				6DEE25611BFDA14A00539365 /* NAImagePickerView.m */,
-				6DEE25621BFDA14A00539365 /* NAPickerView.h */,
-				6DEE25631BFDA14A00539365 /* NAPickerView.m */,
-				6DEE25641BFDA14A00539365 /* NASegmentedControl.h */,
-				6DEE25651BFDA14A00539365 /* NASegmentedControl.m */,
-				6DEE25661BFDA14A00539365 /* NATableView.h */,
-				6DEE25671BFDA14A00539365 /* NATableView.m */,
-				6DEE25681BFDA14A00539365 /* NATextField.h */,
-				6DEE25691BFDA14A00539365 /* NATextField.m */,
-				6DEE256A1BFDA14A00539365 /* NATextView.h */,
-				6DEE256B1BFDA14A00539365 /* NATextView.m */,
-				6DEE256C1BFDA14A00539365 /* plugin */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		6DEE256C1BFDA14A00539365 /* plugin */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE256D1BFDA14A00539365 /* HMSegmentedControl */,
-				6DEE25721BFDA14A00539365 /* RefreshLoadMore */,
-				6DEE25851BFDA14A00539365 /* XXJCheckBoxView */,
-				6DEE259D1BFDA14A00539365 /* XXJCountTextView */,
-				6DEE25A21BFDA14A00539365 /* XXJFocusView */,
-				6DEE25AB1BFDA14A00539365 /* XXJImagePickerVC */,
-				6DEE25B61BFDA14A00539365 /* XXJInputAlertView */,
-				6DEE25B91BFDA14A00539365 /* XXJInvalidAfterClickedButton */,
-				6DEE25BC1BFDA14A00539365 /* XXJMobileTextFiled */,
-				6DEE25C21BFDA14A00539365 /* XXJNumberTextField */,
-				6DEE25C51BFDA14A00539365 /* XXJPathButton */,
-				6DEE25C81BFDA14A00539365 /* XXJPhotoBrowser */,
-				6DEE25CB1BFDA14A00539365 /* XXJPickerView */,
-				6DEE25D21BFDA14A00539365 /* XXJProgress */,
-				6DEE25D51BFDA14A00539365 /* XXJRequireTitleLabel */,
-			);
-			path = plugin;
-			sourceTree = "<group>";
-		};
-		6DEE256D1BFDA14A00539365 /* HMSegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE256E1BFDA14A00539365 /* HMSegmentedControl.h */,
-				6DEE256F1BFDA14A00539365 /* HMSegmentedControl.m */,
-			);
-			path = HMSegmentedControl;
-			sourceTree = "<group>";
-		};
-		6DEE25721BFDA14A00539365 /* RefreshLoadMore */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25731BFDA14A00539365 /* NACommonCollectionReusableView.h */,
-				6DEE25741BFDA14A00539365 /* NACommonCollectionReusableView.m */,
-				6DEE25751BFDA14A00539365 /* NACommonCollectionReusableView.xib */,
-				6DEE25761BFDA14A00539365 /* NACommonCollectionViewCell.h */,
-				6DEE25771BFDA14A00539365 /* NACommonCollectionViewCell.m */,
-				6DEE25781BFDA14A00539365 /* NAEmptyBackgroundView.h */,
-				6DEE25791BFDA14A00539365 /* NAEmptyBackgroundView.m */,
-				6DEE257A1BFDA14A00539365 /* NAMessageInterceptor.h */,
-				6DEE257B1BFDA14A00539365 /* NAMessageInterceptor.m */,
-				6DEE257C1BFDA14A00539365 /* NARefreshLoadCollectionView.h */,
-				6DEE257D1BFDA14A00539365 /* NARefreshLoadCollectionView.m */,
-				6DEE257E1BFDA14A00539365 /* NARefreshLoadFooterView.h */,
-				6DEE257F1BFDA14A00539365 /* NARefreshLoadFooterView.m */,
-				6DEE25801BFDA14A00539365 /* NARefreshLoadHeaderView.h */,
-				6DEE25811BFDA14A00539365 /* NARefreshLoadHeaderView.m */,
-				6DEE25821BFDA14A00539365 /* NARefreshLoadTableView.h */,
-				6DEE25831BFDA14A00539365 /* NARefreshLoadTableView.m */,
-				6DEE25841BFDA14A00539365 /* 自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView */,
-			);
-			path = RefreshLoadMore;
-			sourceTree = "<group>";
-		};
-		6DEE25851BFDA14A00539365 /* XXJCheckBoxView */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25861BFDA14A00539365 /* Graphics */,
-				6DEE259B1BFDA14A00539365 /* NACheckBoxView.h */,
-				6DEE259C1BFDA14A00539365 /* NACheckBoxView.m */,
-			);
-			path = XXJCheckBoxView;
-			sourceTree = "<group>";
-		};
-		6DEE25861BFDA14A00539365 /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25871BFDA14A00539365 /* cb_box_off.png */,
-				6DEE25881BFDA14A00539365 /* cb_box_off@2x.png */,
-				6DEE25891BFDA14A00539365 /* cb_box_on.png */,
-				6DEE258A1BFDA14A00539365 /* cb_box_on@2x.png */,
-				6DEE258B1BFDA14A00539365 /* cb_dark_off.png */,
-				6DEE258C1BFDA14A00539365 /* cb_dark_off@2x.png */,
-				6DEE258D1BFDA14A00539365 /* cb_dark_on.png */,
-				6DEE258E1BFDA14A00539365 /* cb_dark_on@2x.png */,
-				6DEE258F1BFDA14A00539365 /* cb_glossy_off.png */,
-				6DEE25901BFDA14A00539365 /* cb_glossy_off@2x.png */,
-				6DEE25911BFDA14A00539365 /* cb_glossy_on.png */,
-				6DEE25921BFDA14A00539365 /* cb_glossy_on@2x.png */,
-				6DEE25931BFDA14A00539365 /* cb_green_off.png */,
-				6DEE25941BFDA14A00539365 /* cb_green_off@2x.png */,
-				6DEE25951BFDA14A00539365 /* cb_green_on.png */,
-				6DEE25961BFDA14A00539365 /* cb_green_on@2x.png */,
-				6DEE25971BFDA14A00539365 /* cb_mono_off.png */,
-				6DEE25981BFDA14A00539365 /* cb_mono_off@2x.png */,
-				6DEE25991BFDA14A00539365 /* cb_mono_on.png */,
-				6DEE259A1BFDA14A00539365 /* cb_mono_on@2x.png */,
-			);
-			path = Graphics;
-			sourceTree = "<group>";
-		};
-		6DEE259D1BFDA14A00539365 /* XXJCountTextView */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE259E1BFDA14A00539365 /* NACountInternalTextView.h */,
-				6DEE259F1BFDA14A00539365 /* NACountInternalTextView.m */,
-				6DEE25A01BFDA14A00539365 /* NACountTextView.h */,
-				6DEE25A11BFDA14A00539365 /* NACountTextView.m */,
-			);
-			path = XXJCountTextView;
-			sourceTree = "<group>";
-		};
-		6DEE25A21BFDA14A00539365 /* XXJFocusView */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25A31BFDA14A00539365 /* NAFocalPointView.h */,
-				6DEE25A41BFDA14A00539365 /* NAFocalPointView.m */,
-				6DEE25A51BFDA14A00539365 /* NAFocusView.h */,
-				6DEE25A61BFDA14A00539365 /* NAFocusView.m */,
-				6DEE25A71BFDA14A00539365 /* NASpotlightView.h */,
-				6DEE25A81BFDA14A00539365 /* NASpotlightView.m */,
-				6DEE25A91BFDA14A00539365 /* NASqureFocusView.h */,
-				6DEE25AA1BFDA14A00539365 /* NASqureFocusView.m */,
-			);
-			path = XXJFocusView;
-			sourceTree = "<group>";
-		};
-		6DEE25AB1BFDA14A00539365 /* XXJImagePickerVC */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25AC1BFDA14A00539365 /* icx_appraise_delete.png */,
-				6DEE25AD1BFDA14A00539365 /* icx_appraise_upload.png */,
-				6DEE25AE1BFDA14A00539365 /* icx_appraise_upload2.png */,
-				6DEE25AF1BFDA14A00539365 /* NACameraPictureUtil.h */,
-				6DEE25B01BFDA14A00539365 /* NACameraPictureUtil.m */,
-				6DEE25B11BFDA14A00539365 /* NAImgPickerCell.h */,
-				6DEE25B21BFDA14A00539365 /* NAImgPickerCell.m */,
-				6DEE25B31BFDA14A00539365 /* NAImgPickerCell.xib */,
-				6DEE25B41BFDA14A00539365 /* NAImgPickerView.h */,
-				6DEE25B51BFDA14A00539365 /* NAImgPickerView.m */,
-			);
-			path = XXJImagePickerVC;
-			sourceTree = "<group>";
-		};
-		6DEE25B61BFDA14A00539365 /* XXJInputAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25B71BFDA14A00539365 /* UIAlertView+Input.h */,
-				6DEE25B81BFDA14A00539365 /* UIAlertView+Input.m */,
-			);
-			path = XXJInputAlertView;
-			sourceTree = "<group>";
-		};
-		6DEE25B91BFDA14A00539365 /* XXJInvalidAfterClickedButton */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25BA1BFDA14A00539365 /* NAInvalidAfterClickedButton.h */,
-				6DEE25BB1BFDA14A00539365 /* NAInvalidAfterClickedButton.m */,
-			);
-			path = XXJInvalidAfterClickedButton;
-			sourceTree = "<group>";
-		};
-		6DEE25BC1BFDA14A00539365 /* XXJMobileTextFiled */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25BD1BFDA14A00539365 /* NAMobileTextField.h */,
-				6DEE25BE1BFDA14A00539365 /* NAMobileTextField.m */,
-			);
-			path = XXJMobileTextFiled;
-			sourceTree = "<group>";
-		};
-		6DEE25C21BFDA14A00539365 /* XXJNumberTextField */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25C31BFDA14A00539365 /* NANumberTextField.h */,
-				6DEE25C41BFDA14A00539365 /* NANumberTextField.m */,
-			);
-			path = XXJNumberTextField;
-			sourceTree = "<group>";
-		};
-		6DEE25C51BFDA14A00539365 /* XXJPathButton */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25C61BFDA14A00539365 /* NAPathButton.h */,
-				6DEE25C71BFDA14A00539365 /* NAPathButton.m */,
-			);
-			path = XXJPathButton;
-			sourceTree = "<group>";
-		};
-		6DEE25C81BFDA14A00539365 /* XXJPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25C91BFDA14A00539365 /* NAPhotoBrowser.h */,
-				6DEE25CA1BFDA14A00539365 /* NAPhotoBrowser.m */,
-			);
-			path = XXJPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		6DEE25CB1BFDA14A00539365 /* XXJPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25CC1BFDA14A00539365 /* NADatePickerMenu.h */,
-				6DEE25CD1BFDA14A00539365 /* NADatePickerMenu.m */,
-				6DEE25CE1BFDA14A00539365 /* NAPickerMenu.h */,
-				6DEE25CF1BFDA14A00539365 /* NAPickerMenu.m */,
-				6DEE25D01BFDA14A00539365 /* NAPickerModel.h */,
-				6DEE25D11BFDA14A00539365 /* NAPickerModel.m */,
-			);
-			path = XXJPickerView;
-			sourceTree = "<group>";
-		};
-		6DEE25D21BFDA14A00539365 /* XXJProgress */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25D31BFDA14A00539365 /* NAProgress.h */,
-				6DEE25D41BFDA14A00539365 /* NAProgress.m */,
-			);
-			path = XXJProgress;
-			sourceTree = "<group>";
-		};
-		6DEE25D51BFDA14A00539365 /* XXJRequireTitleLabel */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25D61BFDA14A00539365 /* NARequiredTitleLabel.h */,
-				6DEE25D71BFDA14A00539365 /* NARequiredTitleLabel.m */,
-			);
-			path = XXJRequireTitleLabel;
-			sourceTree = "<group>";
-		};
-		6DEE25D81BFDA14A00539365 /* viewc */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE25D91BFDA14A00539365 /* NAHostManualConfigVC.h */,
-				6DEE25DA1BFDA14A00539365 /* NAHostManualConfigVC.m */,
-				6DEE25DD1BFDA14A00539365 /* UIViewController+UIExtension.h */,
-				6DEE25DE1BFDA14A00539365 /* UIViewController+UIExtension.m */,
-			);
-			path = viewc;
-			sourceTree = "<group>";
-		};
-		6DEE26971BFDD21300539365 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE26991BFDD23B00539365 /* af */,
-				6DEE26981BFDD23200539365 /* asi */,
-				6DEE24B71BFDA14A00539365 /* NAHttpRequest.h */,
-				6DEE24B81BFDA14A00539365 /* NAHttpRequest.m */,
-				6DEE24BB1BFDA14A00539365 /* NAHttpRequestManager.h */,
-				6DEE24BC1BFDA14A00539365 /* NAHttpRequestManager.m */,
-				6DEE24BD1BFDA14A00539365 /* NAHttpResponse.h */,
-				6DEE24BE1BFDA14A00539365 /* NAHttpResponse.m */,
-				6DEE24BF1BFDA14A00539365 /* NAHttpTranscations.h */,
-				6DEE24C01BFDA14A00539365 /* NAHttpTranscations.m */,
-			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		6DEE26981BFDD23200539365 /* asi */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24B31BFDA14A00539365 /* NAASIHttpRequest.h */,
-				6DEE24B41BFDA14A00539365 /* NAASIHttpRequest.m */,
-			);
-			name = asi;
-			sourceTree = "<group>";
-		};
-		6DEE26991BFDD23B00539365 /* af */ = {
-			isa = PBXGroup;
-			children = (
-				6DEE24AF1BFDA14A00539365 /* NAAFHttpRequest.h */,
-				6DEE24B01BFDA14A00539365 /* NAAFHttpRequest.m */,
-			);
-			name = af;
-			sourceTree = "<group>";
-		};
 		6E4C2877666BCE3D3C2C6C8D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9915578246E021A713BEEC45 /* Pods.debug.xcconfig */,
 				31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */,
+				141A74D601DA86B208470216 /* Pods-NACommon.debug.xcconfig */,
+				5046B814ABA19A93F041AC39 /* Pods-NACommon.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -951,12 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DEE247A1BFDA10100539365 /* Build configuration list for PBXNativeTarget "NACommon" */;
 			buildPhases = (
-				1983D7ECBAF088DCDC18ECE3 /* Check Pods Manifest.lock */,
+				1983D7ECBAF088DCDC18ECE3 /* [CP] Check Pods Manifest.lock */,
 				6DEE245F1BFDA10100539365 /* Sources */,
 				6DEE24601BFDA10100539365 /* Frameworks */,
 				6DEE24611BFDA10100539365 /* Resources */,
-				7583A88692C91E1370DC4B0E /* Embed Pods Frameworks */,
-				9A654D43B76893F3B80BB179 /* Copy Pods Resources */,
+				7583A88692C91E1370DC4B0E /* [CP] Embed Pods Frameworks */,
+				9A654D43B76893F3B80BB179 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1018,84 +336,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DEE266F1BFDA14A00539365 /* cb_glossy_on@2x.png in Resources */,
-				6DEE26711BFDA14A00539365 /* cb_green_off@2x.png in Resources */,
-				6DEE26801BFDA14A00539365 /* icx_appraise_upload.png in Resources */,
-				6DEE267F1BFDA14A00539365 /* icx_appraise_delete.png in Resources */,
-				6DEE26681BFDA14A00539365 /* cb_dark_off.png in Resources */,
-				6DEE26691BFDA14A00539365 /* cb_dark_off@2x.png in Resources */,
-				6DEE26651BFDA14A00539365 /* cb_box_off@2x.png in Resources */,
-				6DEE266B1BFDA14A00539365 /* cb_dark_on@2x.png in Resources */,
-				6DEE26701BFDA14A00539365 /* cb_green_off.png in Resources */,
-				6DEE26751BFDA14A00539365 /* cb_mono_off@2x.png in Resources */,
 				6DEE24761BFDA10100539365 /* LaunchScreen.storyboard in Resources */,
-				6DEE26841BFDA14A00539365 /* NAImgPickerCell.xib in Resources */,
-				6DEE265B1BFDA14A00539365 /* NACommonCollectionReusableView.xib in Resources */,
 				6DEE24731BFDA10100539365 /* Assets.xcassets in Resources */,
-				6DEE26661BFDA14A00539365 /* cb_box_on.png in Resources */,
-				6DEE26731BFDA14A00539365 /* cb_green_on@2x.png in Resources */,
-				6DEE266C1BFDA14A00539365 /* cb_glossy_off.png in Resources */,
-				6DEE26641BFDA14A00539365 /* cb_box_off.png in Resources */,
 				6DEE24711BFDA10100539365 /* Main.storyboard in Resources */,
-				6DEE26741BFDA14A00539365 /* cb_mono_off.png in Resources */,
-				6DEE26811BFDA14A00539365 /* icx_appraise_upload2.png in Resources */,
-				6DEE266D1BFDA14A00539365 /* cb_glossy_off@2x.png in Resources */,
-				6DEE26631BFDA14A00539365 /* 自定义XXJRefreshLoadHeaderView、XXJRefreshLoadFooterView in Resources */,
-				6DEE266E1BFDA14A00539365 /* cb_glossy_on.png in Resources */,
-				6DEE26761BFDA14A00539365 /* cb_mono_on.png in Resources */,
-				6DEE26671BFDA14A00539365 /* cb_box_on@2x.png in Resources */,
-				6DEE26771BFDA14A00539365 /* cb_mono_on@2x.png in Resources */,
-				6DEE26721BFDA14A00539365 /* cb_green_on.png in Resources */,
-				6DEE266A1BFDA14A00539365 /* cb_dark_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1983D7ECBAF088DCDC18ECE3 /* Check Pods Manifest.lock */ = {
+		1983D7ECBAF088DCDC18ECE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NACommon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7583A88692C91E1370DC4B0E /* Embed Pods Frameworks */ = {
+		7583A88692C91E1370DC4B0E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NACommon/Pods-NACommon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A654D43B76893F3B80BB179 /* Copy Pods Resources */ = {
+		9A654D43B76893F3B80BB179 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NACommon/Pods-NACommon-resources.sh",
+				"${PODS_ROOT}/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NACommon/Pods-NACommon-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1113,94 +412,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DEE25F71BFDA14A00539365 /* NAMoneyFormatter.m in Sources */,
 				6DEE25F11BFDA14A00539365 /* NSString+URLEncoding.m in Sources */,
-				6DEE26781BFDA14A00539365 /* NACheckBoxView.m in Sources */,
-				6DEE26621BFDA14A00539365 /* NARefreshLoadTableView.m in Sources */,
-				6DEE26921BFDA14A00539365 /* NAHostManualConfigVC.m in Sources */,
 				6DEE25E41BFDA14A00539365 /* NSArray+NAFoundation.m in Sources */,
-				6DEE268F1BFDA14A00539365 /* NAPickerModel.m in Sources */,
 				6DEE25ED1BFDA14A00539365 /* NSNumber+NAFoundation.m in Sources */,
-				6DEE265F1BFDA14A00539365 /* NARefreshLoadCollectionView.m in Sources */,
-				6DEE25FF1BFDA14A00539365 /* NAHttpRequestManager.m in Sources */,
-				6DEE26851BFDA14A00539365 /* NAImgPickerView.m in Sources */,
-				6DEE25F41BFDA14A00539365 /* NADevice.m in Sources */,
-				6DEE26571BFDA14A00539365 /* NATextView.m in Sources */,
-				6DEE26081BFDA14A00539365 /* NATouchID.m in Sources */,
 				6DEE25EF1BFDA14A00539365 /* NSString+MD5.m in Sources */,
-				6DEE26501BFDA14A00539365 /* NAAlertView.m in Sources */,
-				6DEE246E1BFDA10100539365 /* ViewController.m in Sources */,
-				6DEE26861BFDA14A00539365 /* UIAlertView+Input.m in Sources */,
-				6DEE26071BFDA14A00539365 /* NADataSerializer.m in Sources */,
-				6DEE268D1BFDA14A00539365 /* NADatePickerMenu.m in Sources */,
-				6DEE26521BFDA14A00539365 /* NAImagePickerView.m in Sources */,
-				6DEE26831BFDA14A00539365 /* NAImgPickerCell.m in Sources */,
-				6DEE26061BFDA14A00539365 /* NALog.m in Sources */,
-				6DEE25FD1BFDA14A00539365 /* NAHttpRequest.m in Sources */,
-				6DEE268C1BFDA14A00539365 /* NAPhotoBrowser.m in Sources */,
-				6DEE26871BFDA14A00539365 /* NAInvalidAfterClickedButton.m in Sources */,
 				6DEE246B1BFDA10100539365 /* AppDelegate.m in Sources */,
-				6DEE265D1BFDA14A00539365 /* NAEmptyBackgroundView.m in Sources */,
-				6DEE26011BFDA14A00539365 /* NAHttpTranscations.m in Sources */,
-				6DEE26881BFDA14A00539365 /* NAMobileTextField.m in Sources */,
-				6DEE267B1BFDA14A00539365 /* NAFocalPointView.m in Sources */,
 				6DEE25E71BFDA14A00539365 /* NSData+MD5.m in Sources */,
-				6DEE269C1BFDD2B100539365 /* NAHostConfig.m in Sources */,
-				6DEE26901BFDA14A00539365 /* NAProgress.m in Sources */,
-				6DEE26561BFDA14A00539365 /* NATextField.m in Sources */,
-				6DEE260E1BFDA14A00539365 /* UITextField+Extension.m in Sources */,
 				6DEE25E91BFDA14A00539365 /* NSDateComponents+NAFoundation.m in Sources */,
-				6DEE25F91BFDA14A00539365 /* NAAFHttpRequest.m in Sources */,
-				6DEE268E1BFDA14A00539365 /* NAPickerMenu.m in Sources */,
 				6DEE25E61BFDA14A00539365 /* NSData+Base64.m in Sources */,
 				6DEE25EA1BFDA14A00539365 /* NSIndexSet+NAFoundation.m in Sources */,
-				6DEE25FB1BFDA14A00539365 /* NAASIHttpRequest.m in Sources */,
 				6DEE25EB1BFDA14A00539365 /* NSMutableArray+NAFoundation.m in Sources */,
-				6DEE26031BFDA14A00539365 /* NADBuffer.m in Sources */,
-				6DEE26791BFDA14A00539365 /* NACountInternalTextView.m in Sources */,
-				6DEE26581BFDA14A00539365 /* HMSegmentedControl.m in Sources */,
 				6DEE25EE1BFDA14A00539365 /* NSString+Base64.m in Sources */,
-				6DEE26611BFDA14A00539365 /* NARefreshLoadHeaderView.m in Sources */,
-				6DEE26541BFDA14A00539365 /* NASegmentedControl.m in Sources */,
 				6DEE25EC1BFDA14A00539365 /* NSMutableDictionary+NAFoundation.m in Sources */,
-				6DEE25F61BFDA14A00539365 /* NAMobileFormatter.m in Sources */,
-				6DEE268B1BFDA14A00539365 /* NAPathButton.m in Sources */,
-				6DEE25FE1BFDA14A00539365 /* NAHttpRequestConfig.m in Sources */,
-				6DEE265C1BFDA14A00539365 /* NACommonCollectionViewCell.m in Sources */,
-				6DEE25F81BFDA14A00539365 /* NASizeFormatter.m in Sources */,
 				6DEE25E31BFDA14A00539365 /* NAKeyChain.m in Sources */,
-				6DEE260F1BFDA14A00539365 /* UIView+Extension.m in Sources */,
-				6DEE26911BFDA14A00539365 /* NARequiredTitleLabel.m in Sources */,
-				6DEE26821BFDA14A00539365 /* NACameraPictureUtil.m in Sources */,
 				6DEE25F21BFDA14A00539365 /* UIDevice+Extension.m in Sources */,
-				6DEE26601BFDA14A00539365 /* NARefreshLoadFooterView.m in Sources */,
-				6DEE26001BFDA14A00539365 /* NAHttpResponse.m in Sources */,
-				6DEE260B1BFDA14A00539365 /* UIImage+Extension.m in Sources */,
-				6DEE267A1BFDA14A00539365 /* NACountTextView.m in Sources */,
 				6DEE24681BFDA10100539365 /* main.m in Sources */,
-				6DEE26941BFDA14A00539365 /* UIViewController+UIExtension.m in Sources */,
-				6DEE26041BFDA14A00539365 /* NACommonDefine.m in Sources */,
-				6DEE260C1BFDA14A00539365 /* UIImageView+Extension.m in Sources */,
 				6DEE25E81BFDA14A00539365 /* NSDate+NAFoundation.m in Sources */,
-				6DEE268A1BFDA14A00539365 /* NANumberTextField.m in Sources */,
 				6DEE25E51BFDA14A00539365 /* NSAttributedString+NAFoundation.m in Sources */,
-				6DEE25FC1BFDA14A00539365 /* NAASIHttpTranscations.m in Sources */,
-				6DEE26531BFDA14A00539365 /* NAPickerView.m in Sources */,
-				6DEE260A1BFDA14A00539365 /* UIColor+Extension.m in Sources */,
 				6DEE25F01BFDA14A00539365 /* NSString+NAFoundation.m in Sources */,
-				6DEE26511BFDA14A00539365 /* NADatePicker.m in Sources */,
-				6DEE265A1BFDA14A00539365 /* NACommonCollectionReusableView.m in Sources */,
-				6DEE267D1BFDA14A00539365 /* NASpotlightView.m in Sources */,
-				6DEE26091BFDA14A00539365 /* UIButton+Extension.m in Sources */,
-				6DEE26051BFDA14A00539365 /* NADataSecurity.m in Sources */,
-				6DEE267C1BFDA14A00539365 /* NAFocusView.m in Sources */,
-				6DEE25F51BFDA14A00539365 /* NADateFormatter.m in Sources */,
-				6DEE26021BFDA14A00539365 /* NADBase.m in Sources */,
-				6DEE260D1BFDA14A00539365 /* UILabel+Extension.m in Sources */,
-				6DEE26551BFDA14A00539365 /* NATableView.m in Sources */,
-				6DEE267E1BFDA14A00539365 /* NASqureFocusView.m in Sources */,
-				6DEE265E1BFDA14A00539365 /* NAMessageInterceptor.m in Sources */,
-				6DEE25FA1BFDA14A00539365 /* NAAFHttpTranscations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1376,7 +605,7 @@
 		};
 		6DEE247B1BFDA10100539365 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9915578246E021A713BEEC45 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 141A74D601DA86B208470216 /* Pods-NACommon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NACommon/nacommon.pch";
@@ -1390,7 +619,7 @@
 		};
 		6DEE247C1BFDA10100539365 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 5046B814ABA19A93F041AC39 /* Pods-NACommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NACommon/nacommon.pch";

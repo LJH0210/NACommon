@@ -81,7 +81,7 @@
 /**
  NADBase的列表类
  */
-@interface NADBaseArray : JSONModelArray
+@interface NADBaseArray : JSONModel
 
 /**
  *  @author , 15-03-25 19:03:32
