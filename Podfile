@@ -1,5 +1,6 @@
-platform :ios, '6.1'
+platform :ios, '7.0'
 
+target 'NACommon' do
 
 ##presentation
 pod 'SVProgressHUD', '~>1.1.2'
@@ -23,3 +24,8 @@ pod 'NSLogger'
 pod 'ASIHTTPRequest'
 
 ##system
+
+end
+
+
+
