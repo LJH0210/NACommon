@@ -140,7 +140,7 @@
 
 /* Begin PBXFileReference section */
 		31D2CA6F58E70533A33C74D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NACommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE23FEE1C2416EA004AF615 /* NACommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NACommonUITests.m; sourceTree = "<group>"; };
 		6DE23FF01C2416EA004AF615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DEE24631BFDA10100539365 /* NACommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NACommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -406,7 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				6DEE24631BFDA10100539365 /* NACommon.app */,
-				6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */,
+				6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -917,9 +917,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DE23FEB1C2416EA004AF615 /* NACommonUITests */ = {
+		6DE23FEB1C2416EA004AF615 /* NACommonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonUITests" */;
+			buildConfigurationList = 6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonTests" */;
 			buildPhases = (
 				6DE23FE81C2416EA004AF615 /* Sources */,
 				6DE23FE91C2416EA004AF615 /* Frameworks */,
@@ -930,9 +930,9 @@
 			dependencies = (
 				6DE23FF21C2416EA004AF615 /* PBXTargetDependency */,
 			);
-			name = NACommonUITests;
+			name = NACommonTests;
 			productName = NACommonUITests;
-			productReference = 6DE23FEC1C2416EA004AF615 /* NACommonUITests.xctest */;
+			productReference = 6DE23FEC1C2416EA004AF615 /* NACommonTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		6DEE24621BFDA10100539365 /* NACommon */ = {
@@ -989,7 +989,7 @@
 			projectRoot = "";
 			targets = (
 				6DEE24621BFDA10100539365 /* NACommon */,
-				6DE23FEB1C2416EA004AF615 /* NACommonUITests */,
+				6DE23FEB1C2416EA004AF615 /* NACommonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1359,13 +1359,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonUITests" */ = {
+		6DE23FF51C2416EA004AF615 /* Build configuration list for PBXNativeTarget "NACommonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DE23FF31C2416EA004AF615 /* Debug */,
 				6DE23FF41C2416EA004AF615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DEE245E1BFDA10100539365 /* Build configuration list for PBXProject "NACommon" */ = {
 			isa = XCConfigurationList;
